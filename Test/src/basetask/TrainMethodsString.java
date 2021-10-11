@@ -11,12 +11,10 @@ public class TrainMethodsString {
         System.out.println("папа мыл раму");
     }
  // 3. создать невозвратный метод printString, который принимает на вход строку и печатает в консоль эту строку
-
     public void printString(String input){
         System.out.println(input);
     }
-
-// 4. создать невозвратный метод printMamaString, который принимает на вход строку и печатает в консоль «мама мыла » и эту строку
+ // 4. создать невозвратный метод printMamaString, который принимает на вход строку и печатает в консоль «мама мыла » и эту строку
     public void printMamaString(String input2){
         System.out.println("мама мыла " + input2);
     }

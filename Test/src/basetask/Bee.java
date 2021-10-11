@@ -27,8 +27,7 @@ public class Bee {
     }
 
     public void printBeeDetails(){
-        int result = (int) (500 / weight);
-
-        System.out.println("Я легче лося в " + result + " раз");
+        System.out.println("Я легче лося в " + 500 / weight + " раз");
     }
+
 }

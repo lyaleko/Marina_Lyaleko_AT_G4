@@ -4,14 +4,12 @@ public class TrainMethodsReturn {
     // 15. создать метод returnNewInt, который принимает на вход целое число (int) и возвращает это число умноженное на 3
 
     public int returnNewInt(int num3) {
-        int intNumber = (int) Math.pow(num3, 3);
-        return intNumber;
+        return num3 * 3;
     }
 
     // 16. создать метод returnNewLong, который принимает на вход целое число (long) и возвращает это число минус 4
     public long returnNewLong(long longNum3) {
-        long total = longNum3 - 4;
-        return total;
+        return longNum3 - 4;
     }
 
     // 17. создать метод returnNewChar, который принимает на вход символ (char) и возвращает строку из двух таки символов
@@ -25,38 +23,34 @@ public class TrainMethodsReturn {
 
     // 18.создать метод returnNewFloat, который принимает на вход дробное число (float) и возвращает это число деленное на 2
     public float returnNewFloat(float floatNum3) {
-        float resultNewFloat = floatNum3 / 2;
-        return resultNewFloat;
+        return floatNum3 / 2;
     }
 
     // 19. создать метод returnNewDouble, который принимает на вход дробное число (double) и возвращает это число плюс 8
    public double returnNewDouble(double doubleNum3) {
-        final int i = 5;
-        double resultNewDouble = doubleNum3 + (double) i;
-        return resultNewDouble;
-           }
+        return doubleNum3 + 8;
+   }
 
     // 20. создать метод returnNewShort, который принимает на вход целое число (short) и возвращает это число минус 1
     public short returnNewShort(short shortNum3) {
         final int i = 1;
-        int resultNewShort = (int) shortNum3 - i;
-        return (short) resultNewShort;
+        return (short) (shortNum3 - 1);
     }
 
     // 21. создать метод returnNewByte, который принимает на вход целое число (byte) и возвращает это число умноженное на 2
     public int returnNewByte(byte byteNum3) {
-        int resultByteNum3 = (byteNum3 * 2);
-        return resultByteNum3;
+        return byteNum3 * 2;
     }
 
-// 22. создать метод returnNewBoolean, который принимает на вход булево значение (boolean) и возвращает обратное булево
+    // 22. создать метод returnNewBoolean, который принимает на вход булево значение (boolean) и возвращает обратное булево
     public boolean returnNewBoolean(boolean booleanValue){
         boolean t = true;
         boolean f = false;
             if (booleanValue == t) {
-                return  f;}
-            else{
+                return  f;
+            } else {
                 booleanValue = false;
-                return t;}
+                return t;
             }
+    }
 }
