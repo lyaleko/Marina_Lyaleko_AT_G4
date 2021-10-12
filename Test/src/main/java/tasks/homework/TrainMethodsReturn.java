@@ -1,4 +1,4 @@
-package basetask;
+package tasks.homework;
 
 public class TrainMethodsReturn {
     // 15. создать метод returnNewInt, который принимает на вход целое число (int) и возвращает это число умноженное на 3
