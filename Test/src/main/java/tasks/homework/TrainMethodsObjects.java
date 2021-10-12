@@ -2,33 +2,33 @@ package tasks.homework;
 
 public class TrainMethodsObjects {
 
-    public void  processMouse(Mouse m) {
-        System.out.println(m.getName() + m.getAge());
-        m.printMouseDetails();
+    public void  processMouse(Mouse mouse) {
+        System.out.println(mouse.getName() + mouse.getAge());
+        mouse.printMouseDetails();
 
     }
 
-    public void processSouce(Souce s) {
-        System.out.println(s.getName() + s.getColor());
-        s.printSouceDetails();
+    public void processSouce(Souce souce) {
+        System.out.println(souce.getName() + souce.getColor());
+        souce.printSouceDetails();
 
     }
 
-    public void processBee(Bee b) {
-        System.out.println(b.getName() + b.getGender());
-        b.printBeeDetails();
+    public void processBee(Bee bee) {
+        System.out.println(bee.getName() + bee.getGender());
+        bee.printBeeDetails();
 
     }
 
-    public void processObstacle(Obstacle o) {
-        System.out.println(b.getSeverity() + b.getDescription());
-        o.printObstacleDetails();
+    public void processObstacle(Obstacle obstacle) {
+        System.out.println(obstacle.getSeverity() + obstacle.getDescription());
+        obstacle.printObstacleDetails();
 
     }
 
-    public void processPineapple(Pineapple p) {
-        System.out.println(p.setGrade() + b.getHeatCapacity());
-        p.printPineappleDetails();
+    public void processPineapple(Pineapple pineapple) {
+        System.out.println(pineapple.setGrade() + pineapple.getHeatCapacity());
+        pineapple.printPineappleDetails();
 
     }
 }
