@@ -1,4 +1,8 @@
 package tasks.homework;
+import java.tasks.homework.*;
+import java.tasks.homework.Souce;
+
+
 
 public class TrainMethodsObjectsRunner {
     public static void main(String[] args) {
