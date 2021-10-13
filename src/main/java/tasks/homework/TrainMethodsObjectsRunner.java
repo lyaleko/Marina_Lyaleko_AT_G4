@@ -1,6 +1,4 @@
 package tasks.homework;
-import java.tasks.homework.*;
-import java.tasks.homework.Souce;
 
 
 
@@ -12,7 +10,7 @@ public class TrainMethodsObjectsRunner {
         trainMethodsObjects.processSouce(new Souce("Hinze", "red"));
         trainMethodsObjects.processBee(new Bee("man", 123));
         trainMethodsObjects.processObstacle(new Obstacle("stones", "medium"));
-        trainMethodsObjects.processPineapple(new Pineapple("just grade", 3000);
+        trainMethodsObjects.processPineapple(new Pineapple("just grade", 3000));
 
 
     }

@@ -15,7 +15,7 @@ public class TrainMethodsObjects {
     }
 
     public void processBee(Bee bee) {
-        System.out.println(bee.getName() + bee.getGender());
+        System.out.println(bee.getWeight() + bee.getGender());
         bee.printBeeDetails();
 
     }
@@ -27,7 +27,7 @@ public class TrainMethodsObjects {
     }
 
     public void processPineapple(Pineapple pineapple) {
-        System.out.println(pineapple.setGrade() + pineapple.getHeatCapacity());
+        System.out.println(pineapple.getGrade() + pineapple.getHeatCapacity());
         pineapple.printPineappleDetails();
 
     }

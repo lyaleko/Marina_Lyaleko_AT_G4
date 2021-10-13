@@ -1,6 +1,6 @@
 package tasks.classwork.day3;
 
-import basetask.TrainMethodsString;
+
 
 public class Runner {
 
