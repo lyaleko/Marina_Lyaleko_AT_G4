@@ -1,4 +1,4 @@
-package tasks.homework;
+package tasks.homework.basetask;
 
 public class TrainMethodsPrimitive {
     // 6. создать невозвратный метод printInt, который принимает на вход целое число (int) и печатает в консоль «я получил на вход число » и это число
