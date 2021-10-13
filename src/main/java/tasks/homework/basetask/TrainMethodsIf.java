@@ -1,4 +1,4 @@
-package tasks.homework;
+package tasks.homework.basetask;
 
 public class TrainMethodsIf {
     // 23. создать метод returnNewInt, который принимает на вход целое число (int) и если оно меньше 8,

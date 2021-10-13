@@ -3,9 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="New changes added to basetask">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/classwork/day3/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/day3/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/TrainMethodsObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/TrainMethodsObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/TrainMethodsObjectsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/TrainMethodsObjectsRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/Bee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/basetask/Bee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/basetask/Mouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/Obstacle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/basetask/Obstacle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/Pineapple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/basetask/Pineapple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/Souce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/basetask/Souce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/TrainMethodsIf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/basetask/TrainMethodsIf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/TrainMethodsIfRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/basetask/TrainMethodsIfRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/TrainMethodsObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/basetask/TrainMethodsObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/TrainMethodsObjectsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/basetask/TrainMethodsObjectsRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/TrainMethodsPrimitive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/basetask/TrainMethodsPrimitive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/TrainMethodsPrimitiveRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/basetask/TrainMethodsPrimitiveRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/TrainMethodsReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/basetask/TrainMethodsReturn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/TrainMethodsReturnRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/basetask/TrainMethodsReturnRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/TrainMethodsString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/basetask/TrainMethodsString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/TrainMethodsStringRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/basetask/TrainMethodsStringRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +25,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1zQ7e7cjMfO3rGL9hCgZuCv1lrp" />
@@ -36,11 +53,11 @@
   </component>
   <component name="RunManager">
     <configuration name="TrainMethodsObjectsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.homework.TrainMethodsObjectsRunner" />
+      <option name="MAIN_CLASS_NAME" value="tasks.homework.basetask.TrainMethodsObjectsRunner" />
       <module name="Marina_Lyaleko_AT_G4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tasks.homework.*" />
+          <option name="PATTERN" value="tasks.homework.basetask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634075163828</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New changes added to basetask">
+      <created>1634097195719</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1634097195719</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,7 +102,34 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="hometask_day2_cycletask" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>

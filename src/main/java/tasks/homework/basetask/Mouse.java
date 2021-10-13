@@ -1,4 +1,4 @@
-package tasks.homework;
+package tasks.homework.basetask;
 public class Mouse {
 
     private String name;
