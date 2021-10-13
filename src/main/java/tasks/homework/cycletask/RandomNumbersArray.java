@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class RandomNumbersArray{
 
-    public int[] FillRundomNumbers(){
+    public int[] fillRandomNumbers(){
         int[] array = new int[7];
         Random random = new Random();
         for (int i = 0; i< array.length; i++){

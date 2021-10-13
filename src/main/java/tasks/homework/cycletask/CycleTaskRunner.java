@@ -6,7 +6,14 @@ public class CycleTaskRunner {
 
         new RangeNumbersFor().methodRangeNumbersFor();
         new RangeNumbersWhile().methodRangeNumbersWhile();
-        new RandomNumbersArray().FillRundomNumbers();
-
+        new RandomNumbersArray().fillRandomNumbers();
+        new AllNumbersArray().allnumbers();
+        new AllNumbersArrayOrder().backOrderNumbers();
+        new AllNumbersArrayMultiply().allNumbersArrayMultiply();
+        new AllNumbersArraySquare().allNumbersArraySquare();
+        new AllNumbersArrayMin().allNumbersArrayMin();
+        new AllNumbersArrayViceversa().allNumbersArrayViceversa();
+        new AllNumbersArrayDecrease().allNumbersArrayDecrease();
     }
+
 }
