@@ -14,7 +14,11 @@ public class AllNumbersArrayDecrease {
                 }
             }
         }
-        System.out.print(temp);
+        for (int j : array) {
+            System.out.print(j + " ");
+        }
+        System.out.println();
     }
+
 
 }
