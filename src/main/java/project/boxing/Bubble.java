@@ -26,5 +26,4 @@ public class Bubble {
         System.out.println("Cramp!");
     }
 
-
 }

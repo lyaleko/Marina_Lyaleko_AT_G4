@@ -5,14 +5,14 @@
 вода заполняется пузырьками при упаковке на заводе, для этого у нее есть метод pump(Bubble[] bubbles)
 1 литр воды содержит 10 тыс пузырьков
 у газировки есть метод degas(), который удаляет пузырьки по одному и вызывает их лопанье*/
-package project.boxing;
+package project.liquid;
 
 public abstract class Water {
+
     private String color;
     private String clear;
     private String smell;
     private int temperature;
-
 
     public Water(String color, String clear, String smell, int temperature) {
         this.color = color;
