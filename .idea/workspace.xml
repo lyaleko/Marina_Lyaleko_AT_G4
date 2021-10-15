@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="Added counter CountIntNumbers and number filter BackorderSpecNumbers">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/arraytask/CountNumbersMonth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/arraytask/Cow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/arraytask/BaсkOrderSpecNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/arraytask/BaсkOrderSpecNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/boxing/Bottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/boxing/Bottle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/boxing/Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/boxing/Bubble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/liquid/Water.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/liquid/Water.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="hometask_day4_array" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -200,5 +200,17 @@
     <MESSAGE value="Added 2 Classes RandomNumbersFor and RandomNumbersArray, update Runner" />
     <MESSAGE value="Added counter CountIntNumbers and number filter BackorderSpecNumbers" />
     <option name="LAST_COMMIT_MESSAGE" value="Added counter CountIntNumbers and number filter BackorderSpecNumbers" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/project/boxing/Bubble.java</url>
+          <line>9</line>
+          <properties field="VOLUME" class="project.boxing.Bubble" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -53,4 +53,3 @@ public abstract class Water {
         this.temperature = temperature;
     }
 }
-
