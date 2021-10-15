@@ -9,14 +9,14 @@ package project.liquid;
 
 public abstract class Water {
 
-    private String color;
-    private String clear;
-    private String smell;
-    private int temperature;
+    private String color = "no";
+    private String transparency = "transparent";
+    private String smell = "no";
+    private int temperature = 0;
 
-    public Water(String color, String clear, String smell, int temperature) {
+    public Water() {
         this.color = color;
-        this.clear = clear;
+        this.transparency = transparency;
         this.smell = smell;
         this.temperature = temperature;
     }
@@ -29,12 +29,12 @@ public abstract class Water {
         this.color = color;
     }
 
-    public String getClear() {
-        return clear;
+    public String getTransparency() {
+        return transparency;
     }
 
-    public void setClear(String clear) {
-        this.clear = clear;
+    public void setTransparency(String transparency) {
+        this.transparency = transparency;
     }
 
     public String getSmell() {
@@ -53,3 +53,4 @@ public abstract class Water {
         this.temperature = temperature;
     }
 }
+
