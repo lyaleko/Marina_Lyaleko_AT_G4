@@ -32,21 +32,18 @@ public class SparklingWater extends Water {
     private void isOpened(boolean isOpened) {
         if (isOpened == true) {
             degas();
-        } else return;
+        }//todo
+
 
     }
-    public void degas(){
-
+    private void degas(){
+        int partSecond = 0;
         for (int i = 0; i < bubbles.length; i++) {
-            int partSecond = (10 + 5) * this.getTemperature();
+            partSecond += (10 + 5) * this.getTemperature();
         }
     }
     public boolean isSparkle(){
-        if (bubbles != null) {
-            return true;
-        }
-
-        return false;
+            return bubbles != null;
     }
-
 }
+
