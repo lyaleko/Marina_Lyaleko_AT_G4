@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="Added counter CountIntNumbers and number filter BackorderSpecNumbers">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/day5/Demo5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/boxing/Bottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/boxing/Bottle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/liquid/SparklingWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/liquid/SparklingWater.java" afterDir="false" />
-    </list>
+    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="Added classwork day5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634247448299</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added classwork day5">
+      <created>1634415956097</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1634415956097</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,7 +215,8 @@
     <MESSAGE value="Added 2 packages basetask and cycletask" />
     <MESSAGE value="Added 2 Classes RandomNumbersFor and RandomNumbersArray, update Runner" />
     <MESSAGE value="Added counter CountIntNumbers and number filter BackorderSpecNumbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added counter CountIntNumbers and number filter BackorderSpecNumbers" />
+    <MESSAGE value="Added classwork day5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added classwork day5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
