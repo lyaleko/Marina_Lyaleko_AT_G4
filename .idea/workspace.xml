@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="Added classwork day5" />
+    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="Change project packages">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/liquid/SparklingWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/liquid/SparklingWater.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +44,7 @@
       <recent name="C:\Users\mlyal\Marina_Lyaleko_AT_G4\" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo5">
+  <component name="RunManager" selected="Application.BaсkOrderSpecNumbers">
     <configuration name="BaсkOrderSpecNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tasks.homework.arraytask.BaсkOrderSpecNumbers" />
       <module name="Marina_Lyaleko_AT_G4" />
@@ -81,19 +84,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.classwork.day5.Demo5" />
-      <module name="Marina_Lyaleko_AT_G4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tasks.classwork.day5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TrainMethodsObjectsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tasks.homework.basetask.TrainMethodsObjectsRunner" />
       <module name="Marina_Lyaleko_AT_G4" />
@@ -109,7 +99,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo5" />
         <item itemvalue="Application.BaсkOrderSpecNumbers" />
         <item itemvalue="Application.Cow" />
         <item itemvalue="Application.CycleTaskRunner" />
@@ -161,12 +150,12 @@
       <option name="project" value="LOCAL" />
       <updated>1634247448299</updated>
     </task>
-    <task id="LOCAL-00006" summary="Added classwork day5">
-      <created>1634415956097</created>
+    <task id="LOCAL-00006" summary="Change project packages">
+      <created>1634321936410</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1634415956097</updated>
+      <updated>1634321936410</updated>
     </task>
     <option name="localTasksCounter" value="7" />
     <servers />
@@ -182,7 +171,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="classwork_day5" />
+                        <option value="project_day4_bubbletask" />
                       </list>
                     </value>
                   </entry>
@@ -215,8 +204,8 @@
     <MESSAGE value="Added 2 packages basetask and cycletask" />
     <MESSAGE value="Added 2 Classes RandomNumbersFor and RandomNumbersArray, update Runner" />
     <MESSAGE value="Added counter CountIntNumbers and number filter BackorderSpecNumbers" />
-    <MESSAGE value="Added classwork day5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added classwork day5" />
+    <MESSAGE value="Change project packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change project packages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
