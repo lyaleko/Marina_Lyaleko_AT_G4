@@ -17,6 +17,11 @@ public class Bottle {
         int[] bubbles = new int[10000];
 
     }
+
+    public Bottle() {
+
+    }
+
     public void open(){
         this.water.setOpened(true);
 

@@ -13,9 +13,12 @@ public class SparklingWater extends Water {
 
     Bottle bottle = new Bottle();
 
+
     public SparklingWater(){
-        super();
-        this.isOpened();
+        isOpened();
+    }
+
+    private void isOpened() {
     }
 
     public void pump(Bubble[] bubbles){
@@ -42,5 +45,8 @@ public class SparklingWater extends Water {
         if (bubbles != null) {
             return true;
         }
+
+        return false;
     }
+
 }
