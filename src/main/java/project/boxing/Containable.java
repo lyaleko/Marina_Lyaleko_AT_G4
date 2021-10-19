@@ -1,6 +1,6 @@
 package project.boxing;
 
-public interface Containable implements Bottle, Cup, Can{
+public interface Containable/* implements Bottle, Cup, Can*/{
 
     void addStuff (Transformable stuff);
     Transformable removeStuff();

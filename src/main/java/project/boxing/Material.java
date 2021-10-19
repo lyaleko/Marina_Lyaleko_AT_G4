@@ -1,6 +1,6 @@
 package project.boxing;
 
-public abstract class Material extends Glass, Plastic, Metal{
+public abstract class Material /*extends Glass, Plastic, Metal*/{
 
     private double thermalConductivity;
     private String color;

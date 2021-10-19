@@ -1,6 +1,8 @@
 package project.boxing;
 
-public interface Transformable implements Water, Sand{
+import project.liquid.Water;
+
+public interface Transformable{
     void mix();
 
 }

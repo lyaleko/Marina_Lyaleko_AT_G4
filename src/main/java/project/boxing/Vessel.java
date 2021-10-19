@@ -1,6 +1,6 @@
 package project.boxing;
 
-public abstract class Vessel extends Bottle, Cup, Can{
+public abstract class Vessel /*extends Bottle, Cup, Can*/{
 
     private double volume;
     private double diameter;
