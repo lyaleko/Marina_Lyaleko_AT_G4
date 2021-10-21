@@ -1,35 +1,32 @@
 package tasks.homework.arraytask;
+
+import java.util.Arrays;
+
 /*написать метод, который вернет целочисленный массив,
 состоящий только из тех элементов исходного целочисленного массива,
-которые больше, чем число n, где n*/
+которые больше, чем число n, где n - целое число, передаваемое в сигнатуру этого метода,
+элементы в результирующем массиве должны быть расположены в обратном порядке*/
 public class BaсkOrderSpecNumbers {
 
-    public static void sumInArray(int number) {
-        int temp = 0;
+    public static int[] filterArray(int[] array, int n) {
 
-        int[] array = {2, 3, 4, 5};
-        int filterNumber = 0;
+        int[] result = {};
 
         for (int i = 0; i < array.length; i++) {
-            for (int k = i + 1; k < array.length; k++) {
-                if (array[i] < array[k]) {
-                    temp = array[i];
-                    array[i] = array[k];
-                    array[k] = temp;
-                    if (array[i] > number) {
-                        filterNumber++;
-                    }
-                }
+            int num = array[i];
+            if (num > n){
+                int index = result.length;
+                result = new int[index+1];
+                result[index]= num;
             }
         }
-        for (int j : array) {
-            System.out.print(j + " ");
-        }
-        System.out.println();
+        return result;
     }
 
     public static void main(String[] args) {
 
-        BaсkOrderSpecNumbers.sumInArray(2);
+        int[] array = {2, 3, 4, 5};
+        int[] result = BaсkOrderSpecNumbers.filterArray(array, 3);
+        System.out.println(Arrays.toString(result));
     }
 }

@@ -10,8 +10,9 @@ public class Bubble {
     private  double volume = 0.3;
     private String gas;
 
-    public Bubble(String gas){
+    public Bubble(String gas){ //передается строка с названием газа пузырька
         this.gas = gas;
+        System.out.println("input name gas");
 
     }
     public String getGas() {
@@ -22,11 +23,12 @@ public class Bubble {
         this.gas = gas;
 
     }
-    public void cramp(){
+    public void cramp(){ //в консоль выводит слово "Cramp!"
         System.out.println("Cramp!");
 
     }
-    public double getVolume() {
+    public double getVolume() { //возвращающий обьем пузырька
+        System.out.printf("Volume bubbles is: %s", volume).println();
         return volume;
     }
 }

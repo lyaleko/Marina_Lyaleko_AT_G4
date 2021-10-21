@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="Added new checks to String task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/stringtask/UseUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/stringtask/UseUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/boxing/Bottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/boxing/Bottle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/boxing/Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/boxing/Bubble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/liquid/SparklingWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/liquid/SparklingWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/arraytask/BaсkOrderSpecNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/arraytask/BaсkOrderSpecNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +59,7 @@
       <recent name="C:\Users\mlyal\Marina_Lyaleko_AT_G4\" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UseUtility">
+  <component name="RunManager" selected="Application.Runner">
     <configuration name="BaсkOrderSpecNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tasks.homework.arraytask.BaсkOrderSpecNumbers" />
       <module name="Marina_Lyaleko_AT_G4" />
@@ -96,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrainMethodsObjectsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.homework.basetask.TrainMethodsObjectsRunner" />
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project.runner.Runner" />
       <module name="Marina_Lyaleko_AT_G4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tasks.homework.basetask.*" />
+          <option name="PATTERN" value="project.runner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,17 +128,17 @@
     <list>
       <item itemvalue="Application.Cow" />
       <item itemvalue="Application.CycleTaskRunner" />
-      <item itemvalue="Application.TrainMethodsObjectsRunner" />
       <item itemvalue="Application.BaсkOrderSpecNumbers" />
       <item itemvalue="Application.UseUtility" />
+      <item itemvalue="Application.Runner" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UseUtility" />
+        <item itemvalue="Application.Runner" />
         <item itemvalue="Application.BaсkOrderSpecNumbers" />
+        <item itemvalue="Application.UseUtility" />
         <item itemvalue="Application.Cow" />
         <item itemvalue="Application.CycleTaskRunner" />
-        <item itemvalue="Application.TrainMethodsObjectsRunner" />
       </list>
     </recent_temporary>
   </component>
