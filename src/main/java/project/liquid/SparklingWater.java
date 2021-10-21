@@ -5,45 +5,60 @@
 у газировки есть метод degas(), который удаляет пузырьки по одному и вызывает их лопанье*/
 package project.liquid;
 import project.boxing.Bubble;
-import project.boxing.Bottle;
+import java.util.Arrays;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class SparklingWater extends Water {
-    private boolean isOpened;
-    private Bubble[] bubbles;
 
-    Bottle bottle = new Bottle();
+    private boolean isOpened = false;
+    private Bubble[] bubbles = {};
 
-
-    public SparklingWater(){
+    public SparklingWater(String color, String transparency, String smell, int temperature){
         isOpened();
     }
 
-    private void isOpened() {
-    }
 
-    public void pump(Bubble[] bubbles){
+    public void pump(Bubble[] bubbles){ // сетает массив из пузырьков в воду
+        System.out.println("set bubbles");
         this.bubbles = bubbles;
 
     }
-    public void setOpened(boolean isOpened){
-        bottle.open();
+    public void setOpened(boolean isOpened){ // меняет состояние воды на "открытое"
+        System.out.printf("set isOpened = %s ", isOpened).println();
+        this.isOpened = isOpened;
     }
 
-    private void isOpened(boolean isOpened) {
-        degas();
-    }//todo
-
-    private void degas(){
-        bubbles[bubbles.length-1] = null;
-        Bubble bubble = bubbles[1];
-        bubble.cramp();
-        bubbles[1] = null;
-       // for (int i = 0; i < bubbles.length; i++) {
-       //    partSecond += (10 + 5) * this.getTemperature();}
-
+    private void isOpened() { //  новом потоке проверят состояние воды на "открытость"
+        // и в случае, если она открыта запускает метод degas()
+        System.out.println("start automatic check");
+        Timer timer = new Timer();
+        timer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                if (isOpened){
+                    degas();
+                }
+            }
+        }, 0, 1000);
     }
-    public boolean isSparkle(){
-            return bubbles != null;
+
+    private void degas(){ // каждую секунду выпускает по партии пузырьков
+        // из рассчета 10 + 5 * температура_воды
+        if (this.isSparkle()){
+            System.out.println("output bubbles");
+            int expectedCount = (10 + 5) * this.getTemperature();
+            int possibleBubblesAmount = Math.min(expectedCount, this.bubbles.length);
+            for (int i = 0; i < possibleBubblesAmount; i++) {
+                Bubble b = this.bubbles[i];
+                b.cramp();
+                this.bubbles = Arrays.copyOfRange(this.bubbles, possibleBubblesAmount, this.bubbles.length-1);
+            }
+        }
+    }
+    public boolean isSparkle(){ // возвращающий true если в воде еще есть пузырьки газа
+        System.out.println("output bubbles");
+        return this.bubbles.length > 0;
     }
 }
 

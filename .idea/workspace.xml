@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="Added Classwork Day6">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/stringtask/UseUtility.java" afterDir="false" />
+    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="Added new checks to String task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/boxing/Bottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/boxing/Bottle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/boxing/Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/boxing/Bubble.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/project/liquid/SparklingWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/liquid/SparklingWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/arraytask/BaсkOrderSpecNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/arraytask/BaсkOrderSpecNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -26,6 +28,14 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1zQ7e7cjMfO3rGL9hCgZuCv1lrp" />
   <component name="ProjectViewState">
@@ -41,12 +51,15 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="project.boxing" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mlyal\Marina_Lyaleko_AT_G4\Test" />
       <recent name="C:\Users\mlyal\Marina_Lyaleko_AT_G4\" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UseUtility">
+  <component name="RunManager" selected="Application.Runner">
     <configuration name="BaсkOrderSpecNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tasks.homework.arraytask.BaсkOrderSpecNumbers" />
       <module name="Marina_Lyaleko_AT_G4" />
@@ -60,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericContainerRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.classwork.day6.GenericContainerRunner" />
+    <configuration name="Cow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.homework.arraytask.Cow" />
       <module name="Marina_Lyaleko_AT_G4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tasks.classwork.day6.*" />
+          <option name="PATTERN" value="tasks.homework.arraytask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectContainerRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.classwork.day6.ObjectContainerRunner" />
+    <configuration name="CycleTaskRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.homework.cycletask.CycleTaskRunner" />
       <module name="Marina_Lyaleko_AT_G4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tasks.classwork.day6.*" />
+          <option name="PATTERN" value="tasks.homework.cycletask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,13 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.classwork.day6.RunnerDemo" />
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project.runner.Runner" />
       <module name="Marina_Lyaleko_AT_G4" />
-      <option name="PROGRAM_PARAMETERS" value="BLUE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tasks.classwork.day6.*" />
+          <option name="PATTERN" value="project.runner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,19 +126,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Cow" />
+      <item itemvalue="Application.CycleTaskRunner" />
       <item itemvalue="Application.BaсkOrderSpecNumbers" />
-      <item itemvalue="Application.GenericContainerRunner" />
-      <item itemvalue="Application.ObjectContainerRunner" />
-      <item itemvalue="Application.RunnerDemo" />
       <item itemvalue="Application.UseUtility" />
+      <item itemvalue="Application.Runner" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UseUtility" />
-        <item itemvalue="Application.RunnerDemo" />
-        <item itemvalue="Application.GenericContainerRunner" />
-        <item itemvalue="Application.ObjectContainerRunner" />
+        <item itemvalue="Application.Runner" />
         <item itemvalue="Application.BaсkOrderSpecNumbers" />
+        <item itemvalue="Application.UseUtility" />
+        <item itemvalue="Application.Cow" />
+        <item itemvalue="Application.CycleTaskRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -181,14 +193,21 @@
       <option name="project" value="LOCAL" />
       <updated>1634321936410</updated>
     </task>
-    <task id="LOCAL-00007" summary="Added Classwork Day6">
-      <created>1634500790926</created>
+    <task id="LOCAL-00007" summary="Added new classes Vessel,Material and Interfaces Containable,Transformable.">
+      <created>1634592151758</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1634500790926</updated>
+      <updated>1634592151758</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added new checks to String task">
+      <created>1634681051398</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1634681051398</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,7 +221,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="project_day4_bubbles" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -236,8 +255,9 @@
     <MESSAGE value="Added 2 Classes RandomNumbersFor and RandomNumbersArray, update Runner" />
     <MESSAGE value="Added counter CountIntNumbers and number filter BackorderSpecNumbers" />
     <MESSAGE value="Change project packages" />
-    <MESSAGE value="Added Classwork Day6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Classwork Day6" />
+    <MESSAGE value="Added new classes Vessel,Material and Interfaces Containable,Transformable." />
+    <MESSAGE value="Added new checks to String task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new checks to String task" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -247,35 +267,6 @@
           <line>9</line>
           <properties field="volume" class="project.boxing.Bubble" />
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/tasks/classwork/day6/A.java</url>
-          <line>3</line>
-          <properties class="tasks.classwork.day6.A" method="foo">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/tasks/classwork/day6/ObjectContainerRunner.java</url>
-          <line>10</line>
-          <properties class="tasks.classwork.day6.ObjectContainerRunner" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/tasks/homework/stringtask/UseUtility.java</url>
-          <line>8</line>
-          <properties class="tasks.homework.stringtask.UseUtility" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/tasks/classwork/day6/ObjectContainerRunner.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
