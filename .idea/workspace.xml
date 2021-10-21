@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="Added changes to Project task">
+    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="Changed directory of Project packages">
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/boxing/Can.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/boxing/Cup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/material/Glass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/material/Metal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/material/Plastic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/boxing/Containable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/feature/Containable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/boxing/Material.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/material/Material.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/boxing/Sand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/material/Sand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/boxing/Transformable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/feature/Transformable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/boxing/Bottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/boxing/Bottle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/boxing/Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/boxing/Bubble.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/project/boxing/Vessel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/boxing/Vessel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/feature/Containable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/feature/Containable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/feature/Transformable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/feature/Transformable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/liquid/SparklingWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/liquid/SparklingWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/liquid/Water.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/liquid/Water.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/material/Material.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/material/Material.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634500790926</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Changed directory of Project packages">
+      <created>1634839632542</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1634839632542</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,17 +255,12 @@
     <MESSAGE value="Added counter CountIntNumbers and number filter BackorderSpecNumbers" />
     <MESSAGE value="Change project packages" />
     <MESSAGE value="Added Classwork Day6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Classwork Day6" />
+    <MESSAGE value="Changed directory of Project packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed directory of Project packages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/main/java/project/boxing/Bubble.java</url>
-          <line>9</line>
-          <properties field="volume" class="project.boxing.Bubble" />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/tasks/classwork/day6/A.java</url>
           <line>3</line>

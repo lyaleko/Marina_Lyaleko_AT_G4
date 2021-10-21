@@ -7,28 +7,28 @@ package project.boxing;
 
 public class Bubble {
 
-    private  double volume = 0.3;
-    private String gas;
+    private  double bubbleVolume = 0.3;
+    private String carbonicGas;
 
-    public Bubble(String gas){ //передается строка с названием газа пузырька
-        this.gas = gas;
-        System.out.println("input name gas");
-
-    }
-    public String getGas() {
-        return gas;
+    public Bubble(String carbonicGas){ //передается строка с названием газа пузырька
+        System.out.printf("Gas name is: %s", carbonicGas).println();
+        this.carbonicGas = carbonicGas;
 
     }
-    public void setGas(String gas) {
-        this.gas = gas;
+    public String getCarbonicGas() {
+        return carbonicGas;
+
+    }
+    public void setCarbonicGas(String carbonicGas) {
+        this.carbonicGas = carbonicGas;
 
     }
     public void cramp(){ //в консоль выводит слово "Cramp!"
         System.out.println("Cramp!");
 
     }
-    public double getVolume() { //возвращающий обьем пузырька
-        System.out.printf("Volume bubbles is: %s", volume).println();
-        return volume;
+    public double getBubbleVolume() { //возвращающий обьем пузырька
+        System.out.printf("Volume of bubble is: %s", bubbleVolume).println();
+        return bubbleVolume;
     }
 }

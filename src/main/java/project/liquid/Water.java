@@ -7,7 +7,9 @@
 у газировки есть метод degas(), который удаляет пузырьки по одному и вызывает их лопанье*/
 package project.liquid;
 
-public abstract class Water {
+import project.feature.Transformable;
+
+public abstract class Water implements Transformable {
 
     private String color = "no";
     private String transparency = "transparent";
