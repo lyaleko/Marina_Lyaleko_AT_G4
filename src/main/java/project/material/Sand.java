@@ -1,4 +1,4 @@
-package project.boxing;
+package project.material;
 
 public interface Sand {
 }

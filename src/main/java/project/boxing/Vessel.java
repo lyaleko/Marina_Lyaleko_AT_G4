@@ -1,5 +1,7 @@
 package project.boxing;
 
+import project.material.Material;
+
 public abstract class Vessel /*extends Bottle, Cup, Can*/{
 
     private double volume;

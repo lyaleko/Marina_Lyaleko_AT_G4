@@ -1,4 +1,4 @@
-package project.boxing;
+package project.feature;
 
 import project.liquid.Water;
 

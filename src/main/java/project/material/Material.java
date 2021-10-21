@@ -1,4 +1,4 @@
-package project.boxing;
+package project.material;
 
 public abstract class Material /*extends Glass, Plastic, Metal*/{
 

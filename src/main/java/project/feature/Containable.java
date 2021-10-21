@@ -1,4 +1,6 @@
-package project.boxing;
+package project.feature;
+
+import project.feature.Transformable;
 
 public interface Containable/* implements Bottle, Cup, Can*/{
 
