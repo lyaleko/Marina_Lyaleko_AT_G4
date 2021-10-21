@@ -4,37 +4,75 @@ package project.boxing;
 есть вода
 есть метод open(), который вызывает метод degas() в газировке*/
 
+import project.feature.Transformable;
+import project.feature.Containable;
 import project.liquid.SparklingWater;
 
-public class Bottle {
+public class Bottle extends Vessel implements Containable{
 
     private double volume;
     private SparklingWater water;
 
     public Bottle(double volume){ // конструктор Bottle(double volume), в котором
         // бутылка заполняется массивом из пузырьков из рассчета 10000 на каждый литр
+        System.out.println("Bottle filled with bubbles");
         this.volume = volume;
-        int[] bubbles = new int[10000];
+        int[] arrBubbles = new int[10];
+        double fullValue = volume * 10000;
+
+    }
+
+    public double getVolume() {
+        return volume;
+    }
+
+    public void setVolume(double volume) {
+        this.volume = volume;
+    }
+
+    @Override
+    public void addStuff(Transformable stuff) {
+    }
+
+    @Override
+    public Transformable removeStuff() {
+        return null;
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return false;
+    }
+
+    @Override
+    public int getFreeSpace() {
+        return 0;
     }
 
     public void open(){ //который меняет состояние воды в "открытое"
-        System.out.println("change condition");
+        System.out.println("Is bottle opened?");
         this.water.setOpened(true);
 
+    }
+
+    @Override
+    public void close() {
 
     }
+
     public void warm(int temperature){ // устанавливает температуру воды в бутылке
         System.out.printf("Warming water to: %s", temperature).println();
         this.water.setTemperature(temperature);
 
     }
     public SparklingWater getWater(){ // возвращающий обьект воды
-        System.out.print("return Water");
+        System.out.print("Get water properties");
         return new SparklingWater(water.getColor(), water.getTransparency(), water.getSmell(), water.getTemperature());
     }
-    public void setWater(SparklingWater water){ // добавляющий новый обьект воды
-        System.out.print("add new Water");
-        SparklingWater water1 = new SparklingWater(water.getColor(), water.getTransparency(), water.getSmell(), water.getTemperature());
+    public SparklingWater setWater(SparklingWater water){ // добавляющий новый обьект воды
+        System.out.print("Add new Water");
+        return water;
     }
+
 }
 
