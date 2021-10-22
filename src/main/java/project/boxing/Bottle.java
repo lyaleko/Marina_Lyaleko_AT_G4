@@ -22,6 +22,10 @@ public class Bottle extends Vessel implements Containable{
 
     }
 
+    public Bottle() {
+
+    }
+
     public double getVolume() {
         return volume;
     }

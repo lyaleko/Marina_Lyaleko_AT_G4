@@ -1,17 +1,12 @@
 package tasks.homework.stringtask;
 
-import java.time.format.DateTimeFormatter;
-import java.util.Formatter;
-import java.util.Date;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatterBuilder;
-import java.util.*;
-import java.util.regex.Pattern;
-import java.util.regex.Matcher;
-import java.text.*;
-import java.text.SimpleDateFormat;
-import java.lang.String;
 
+import java.text.SimpleDateFormat;
+import java.util.Arrays;
+import java.util.Date;
+import java.util.Locale;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 
 public class UseUtility {
@@ -57,6 +52,7 @@ public class UseUtility {
 //ip 212.168.101.5: ok - 3, failed - 2
 
 
+
 // 2.4 написать метод, который выводит в консоль текущую дату и время в формате: 19 сентября, 2020, 3 часа 13 минут
 
         Date date = new Date();
@@ -66,6 +62,8 @@ public class UseUtility {
 // 2.5 написать метод, который принимает на вход строку с датой и временем в формате "22.00 07.09.2020" и выводит в консоль
 // в формате "September, 7, 2020 22:00"
 
+        String date2 = new SimpleDateFormat("HH.mm dd.MM.yyyy ").format(new Date());
+        System.out.printf(Locale.ENGLISH, "%1$s %2$tB,  %2$td , %2$tY, %2$tH:%2$tM" , "Now: ", date);
 
     }
 }

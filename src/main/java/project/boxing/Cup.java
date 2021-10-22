@@ -8,4 +8,7 @@ public class Cup extends Vessel{
         super(volume, diameter, weight, material);
     }
 
+    public Cup() {
+
+    }
 }
