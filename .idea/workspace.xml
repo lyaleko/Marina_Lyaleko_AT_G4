@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="Added Date">
-      <change afterPath="$PROJECT_DIR$/new.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/day7/MyFileRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/day7/MyReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/day7/MyReaderFileTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/day7/MyScanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/day7/MyWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/day7/Table.java" afterDir="false" />
+    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="Added classwork_day7">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/scantask/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/classwork/day7/MyScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/day7/MyScanner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +46,13 @@
       <recent name="C:\Users\mlyal\Marina_Lyaleko_AT_G4\" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyReaderFileTable">
-    <configuration name="MyFileRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.classwork.day7.MyFileRunner" />
+  <component name="RunManager" selected="Application.Calculator">
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.homework.scantask.Calculator" />
       <module name="Marina_Lyaleko_AT_G4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tasks.classwork.day7.*" />
+          <option name="PATTERN" value="tasks.homework.scantask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,8 +60,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.classwork.day7.MyReader" />
+    <configuration name="MyFileRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.classwork.day7.MyFileRunner" />
       <module name="Marina_Lyaleko_AT_G4" />
       <extension name="coverage">
         <pattern>
@@ -118,19 +113,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyReader" />
       <item itemvalue="Application.MyWriter" />
       <item itemvalue="Application.MyScanner" />
       <item itemvalue="Application.MyFileRunner" />
       <item itemvalue="Application.MyReaderFileTable" />
+      <item itemvalue="Application.Calculator" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyReaderFileTable" />
-        <item itemvalue="Application.MyFileRunner" />
+        <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.MyScanner" />
+        <item itemvalue="Application.MyFileRunner" />
+        <item itemvalue="Application.MyReaderFileTable" />
         <item itemvalue="Application.MyWriter" />
-        <item itemvalue="Application.MyReader" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634500790926</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added classwork_day7">
+      <created>1635056735854</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1635056735854</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,7 +244,8 @@
     <MESSAGE value="Change project packages" />
     <MESSAGE value="Added Classwork Day6" />
     <MESSAGE value="Added Date" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Date" />
+    <MESSAGE value="Added classwork_day7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added classwork_day7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
