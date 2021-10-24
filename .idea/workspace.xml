@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="Added Day6">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/classwork/day8/MyColorList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/day8/MyColorList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/classwork/day8/MyHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/day8/MyHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/classwork/day8/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/day8/MyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/classwork/day8/MyVegitablesList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/day8/MyVegitablesList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/classwork/day8/NewArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/day8/NewArrayList.java" afterDir="false" />
+    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="Added changes to classwork Day6">
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/mix/Bubble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/mix/Chair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/mix/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/mix/Sand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/mix/Water.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="project_day6_stringtask" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -211,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635079126235</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added changes to classwork Day6">
+      <created>1635099031332</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1635099031332</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,7 +270,8 @@
     <MESSAGE value="Added classwork_day7" />
     <MESSAGE value="Added Calculator" />
     <MESSAGE value="Added Day6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Day6" />
+    <MESSAGE value="Added changes to classwork Day6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added changes to classwork Day6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
