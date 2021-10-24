@@ -6,4 +6,5 @@ public class Constant {
     public static final String GREEN = "green";
     public static final String BLUE = "blue";
 
+
 }

@@ -14,9 +14,9 @@ public class Calculator {
 
         System.out.print("\nEnter an operator (+, -, *, /): ");
         op = reader.next().charAt(0);
-        System.out.print("Enter the first numbers: ");
+        System.out.print("Enter the first number: ");
         num1 = reader.nextInt();
-        System.out.print("Enter the second numbers: ");
+        System.out.print("Enter the second number: ");
         num2 = reader.nextInt();
 
         switch(op) {
