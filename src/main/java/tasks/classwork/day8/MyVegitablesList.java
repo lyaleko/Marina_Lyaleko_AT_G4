@@ -13,15 +13,15 @@ public class MyVegitablesList {
         names.add("Батат");
         names.add("Картоха");
 
-        for(String col: names){
+        for (String col : names) {
             System.out.print(col + " ");
         }
         System.out.println();
-
+// Посчитать сколько овощей содержат букву «а» и вывести число в консоль
         int count = 0;
 
-        for (String vegitable: names) {
-            if(vegitable.contains("а")){
+        for (String vegitable : names) {
+            if (vegitable.contains("а")) {
                 count++;
             }
         }
@@ -30,6 +30,14 @@ public class MyVegitablesList {
         for (int i = 0; i < names.size(); i++) {
 
             System.out.print(names.get(i) + " ");
+        }
+        System.out.println();
+
+        names.remove("Огурец");
+        names.remove(3);
+
+        for(String col: names){
+            System.out.print(col + " ");
         }
 
     }

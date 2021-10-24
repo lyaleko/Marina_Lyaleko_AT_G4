@@ -15,11 +15,11 @@ public class NewArrayList {
 
         long t0 = System.currentTimeMillis();
 
-        for (int i = 0; i < 10000000; i++) {
+        for (int i = 0; i < 10000000; i++) {//Каждый лист заполнить 10000000 строками
             myList1.add(text);
         }
         System.out.println("ArrayList: " + (System.currentTimeMillis() - t0));
-
+// Проитерировать оба списка по индексу и найти, который из них быстрее
         long t = System.currentTimeMillis();
 
         for (int i = 0; i < 10000000; i++) {

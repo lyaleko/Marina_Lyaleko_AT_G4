@@ -11,15 +11,15 @@ public class MyHashMap {
         String[] array = "мама мыла раму".split(" ");
 
         for (int i = 0; i < array.length; i++) {
-            words.put(i, array[i]);
+            words.put(i, array[i]); // слова  добавить в карту по принципу <индекс, слово>
         }
-        for (int in : words.keySet()) {
+        for (int in : words.keySet()) { // Проитерировать ключи катры
             System.out.println(in);
         }
-        for (String x : words.values()) {
+        for (String x : words.values()) { // Проитерировать значения карты
             System.out.println(x);
         }
-        for (Map.Entry y : words.entrySet()) {
+        for (Map.Entry y : words.entrySet()) { // Проитерировать комбинацию
             System.out.println(y);
         }
     }

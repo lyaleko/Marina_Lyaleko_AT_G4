@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="Added Calculator">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/day8/MyColorList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/day8/MyHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/day8/MyHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/day8/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/day8/MyNamesList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/day8/MySetClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/day8/MyVegitablesList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/day8/NewArrayList.java" afterDir="false" />
+    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="Added Day6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/classwork/day6/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/day6/Constant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/scantask/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/scantask/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/classwork/day8/MyColorList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/day8/MyColorList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/classwork/day8/MyHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/day8/MyHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/classwork/day8/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/day8/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/classwork/day8/MyVegitablesList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/day8/MyVegitablesList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/classwork/day8/NewArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/day8/NewArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,19 +63,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.classwork.day8.MyHashMap" />
-      <module name="Marina_Lyaleko_AT_G4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tasks.classwork.day8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tasks.classwork.day8.MyHashSet" />
       <module name="Marina_Lyaleko_AT_G4" />
@@ -107,6 +89,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MySetClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.classwork.day8.MySetClass" />
+      <module name="Marina_Lyaleko_AT_G4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tasks.classwork.day8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyVegitablesList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tasks.classwork.day8.MyVegitablesList" />
       <module name="Marina_Lyaleko_AT_G4" />
@@ -121,19 +116,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyHashSet" />
-      <item itemvalue="Application.MyHashMap" />
       <item itemvalue="Application.MyColorList" />
       <item itemvalue="Application.MyNamesList" />
       <item itemvalue="Application.MyVegitablesList" />
+      <item itemvalue="Application.MySetClass" />
+      <item itemvalue="Application.MyHashSet" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MyVegitablesList" />
+        <item itemvalue="Application.MyHashSet" />
+        <item itemvalue="Application.MySetClass" />
         <item itemvalue="Application.MyNamesList" />
         <item itemvalue="Application.MyColorList" />
-        <item itemvalue="Application.MyHashMap" />
-        <item itemvalue="Application.MyHashSet" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635058304563</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added Day6">
+      <created>1635079126235</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1635079126235</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,7 +263,8 @@
     <MESSAGE value="Added Date" />
     <MESSAGE value="Added classwork_day7" />
     <MESSAGE value="Added Calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Calculator" />
+    <MESSAGE value="Added Day6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Day6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -289,7 +292,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/tasks/classwork/day8/MyColorList.java</url>
-          <line>10</line>
+          <line>11</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
