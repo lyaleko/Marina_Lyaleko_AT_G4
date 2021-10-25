@@ -4,6 +4,7 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /*Создать список строк стрингов figures из 5 фигур (Овал, Прямоугольник, Круг, Квадрат, Эллипс) через (Arrays.asList())
@@ -16,7 +17,7 @@ public class Figures {
 
     public static void main(String[] args) throws IOException {
 
-        List<String> myList = new ArrayList();
+        List<String> myList = new ArrayList<>(Arrays.asList());
 
         myList.add("Овал");
         myList.add("Прямоугольник");
@@ -24,7 +25,19 @@ public class Figures {
         myList.add("Квадрат");
         myList.add("Эллипс");
 
-          int count = 0;
+        BufferedWriter out = new BufferedWriter((new FileWriter("figures.txt")));
+
+        for (String f : myList) {
+            if (f.matches(myList.get(myList.size() - 1)))
+                out.write(f);
+            else {
+                out.write(f + "-");
+            }
+
+        }
+        out.close();
+
+        int count = 0;
 
         for (String words : myList) {
             if (!words.contains("и")) {
@@ -42,18 +55,6 @@ public class Figures {
 
         for (String str : myList) {
             System.out.print(str + " ");
-        }
-
-        String outputFileName = "figures.txt";
-
-        try (BufferedWriter writter = new BufferedWriter(new FileWriter(outputFileName))) {
-            for (String value : myList) {
-                writter.write( "-"); // change data for input
-            }
-        }
-
-        catch (IOException e) {
-            e.printStackTrace();
         }
 
     }

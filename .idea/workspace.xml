@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="Added changes to classwork Day6">
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/mix/Bubble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/mix/Chair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/mix/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/mix/Sand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/mix/Water.java" afterDir="false" />
+    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="Added figures">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/google_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Marina_Lyaleko_AT_G4/tasks/classwork/classwork.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Marina_Lyaleko_AT_G4/tasks/tasks.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/classwork.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/arraylist/Cars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/arraylist/Cities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/arraylist/Countries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/tasks.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Marina_Lyaleko_AT_G4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Marina_Lyaleko_AT_G4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/arraylist/Figures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/arraylist/Figures.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +43,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -48,13 +62,13 @@
       <recent name="C:\Users\mlyal\Marina_Lyaleko_AT_G4\" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyVegitablesList">
-    <configuration name="MyColorList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.classwork.day8.MyColorList" />
+  <component name="RunManager" selected="Application.Figures">
+    <configuration name="Butterflies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.homework.arraylist.Butterflies" />
       <module name="Marina_Lyaleko_AT_G4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tasks.classwork.day8.*" />
+          <option name="PATTERN" value="tasks.homework.arraylist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.classwork.day8.MyHashSet" />
+    <configuration name="Cities" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.homework.arraylist.Cities" />
       <module name="Marina_Lyaleko_AT_G4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tasks.classwork.day8.*" />
+          <option name="PATTERN" value="tasks.homework.arraylist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyNamesList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.classwork.day8.MyNamesList" />
+    <configuration name="Countries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.homework.arraylist.Countries" />
       <module name="Marina_Lyaleko_AT_G4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tasks.classwork.day8.*" />
+          <option name="PATTERN" value="tasks.homework.arraylist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySetClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.classwork.day8.MySetClass" />
+    <configuration name="Figures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.homework.arraylist.Figures" />
       <module name="Marina_Lyaleko_AT_G4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tasks.classwork.day8.*" />
+          <option name="PATTERN" value="tasks.homework.arraylist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,19 +129,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyColorList" />
-      <item itemvalue="Application.MyNamesList" />
       <item itemvalue="Application.MyVegitablesList" />
-      <item itemvalue="Application.MySetClass" />
-      <item itemvalue="Application.MyHashSet" />
+      <item itemvalue="Application.Butterflies" />
+      <item itemvalue="Application.Figures" />
+      <item itemvalue="Application.Cities" />
+      <item itemvalue="Application.Countries" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Figures" />
+        <item itemvalue="Application.Countries" />
+        <item itemvalue="Application.Cities" />
+        <item itemvalue="Application.Butterflies" />
         <item itemvalue="Application.MyVegitablesList" />
-        <item itemvalue="Application.MyHashSet" />
-        <item itemvalue="Application.MySetClass" />
-        <item itemvalue="Application.MyNamesList" />
-        <item itemvalue="Application.MyColorList" />
       </list>
     </recent_temporary>
   </component>
@@ -210,14 +224,21 @@
       <option name="project" value="LOCAL" />
       <updated>1635079126235</updated>
     </task>
-    <task id="LOCAL-00011" summary="Added changes to classwork Day6">
-      <created>1635099031332</created>
+    <task id="LOCAL-00011" summary="Added butterfly">
+      <created>1635107510350</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1635099031332</updated>
+      <updated>1635107510350</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added figures">
+      <created>1635110600173</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1635110600173</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,7 +252,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="homework_day8_arraylist" />
                       </list>
                     </value>
                   </entry>
@@ -270,8 +291,9 @@
     <MESSAGE value="Added classwork_day7" />
     <MESSAGE value="Added Calculator" />
     <MESSAGE value="Added Day6" />
-    <MESSAGE value="Added changes to classwork Day6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added changes to classwork Day6" />
+    <MESSAGE value="Added butterfly" />
+    <MESSAGE value="Added figures" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added figures" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
