@@ -19,7 +19,7 @@ public class Cars {
     public static void main(String[] args) throws IOException {
 
         Set<String> cars = Sets.newHashSet("Мерс", "Ауди", "Жигуль", "Рено", "Жигуль", "Жигуль", "Ауди");
-        BufferedWriter out = new BufferedWriter((new FileWriter("Cars")));
+        BufferedWriter out = new BufferedWriter((new FileWriter("cars")));
 
         for (String car : cars) {
             out.write("\"" + car + "\"" + "\n");
