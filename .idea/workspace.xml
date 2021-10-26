@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="Added Countries">
+    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="Added Birds">
       <change afterPath="$PROJECT_DIR$/src/Marina_Lyaleko_AT_G4/tasks/classwork/classwork.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Marina_Lyaleko_AT_G4/tasks/tasks.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/classwork.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/arraylist/Birds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/arraylist/StringElements.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/tasks/tasks.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -55,22 +55,9 @@
       <recent name="C:\Users\mlyal\Marina_Lyaleko_AT_G4\" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Birds">
+  <component name="RunManager" selected="Application.StringElements">
     <configuration name="Birds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tasks.homework.arraylist.Birds" />
-      <module name="Marina_Lyaleko_AT_G4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tasks.homework.arraylist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Butterflies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.homework.arraylist.Butterflies" />
       <module name="Marina_Lyaleko_AT_G4" />
       <extension name="coverage">
         <pattern>
@@ -121,20 +108,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.homework.arraylist.StringElements" />
+      <module name="Marina_Lyaleko_AT_G4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tasks.homework.arraylist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Butterflies" />
       <item itemvalue="Application.Figures" />
       <item itemvalue="Application.Cities" />
       <item itemvalue="Application.Countries" />
       <item itemvalue="Application.Birds" />
+      <item itemvalue="Application.StringElements" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringElements" />
         <item itemvalue="Application.Birds" />
         <item itemvalue="Application.Countries" />
         <item itemvalue="Application.Figures" />
         <item itemvalue="Application.Cities" />
-        <item itemvalue="Application.Butterflies" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635273799594</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added Birds">
+      <created>1635274517583</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1635274517583</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -302,7 +309,8 @@
     <MESSAGE value="Added figures" />
     <MESSAGE value="Added Cars, Cities, Countries" />
     <MESSAGE value="Added Countries" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Countries" />
+    <MESSAGE value="Added Birds" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Birds" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
