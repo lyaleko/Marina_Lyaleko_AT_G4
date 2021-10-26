@@ -18,7 +18,6 @@ public class Cars {
 
     public static void main(String[] args) throws IOException {
 
-
         Set<String> cars = Sets.newHashSet("Мерс", "Ауди", "Жигуль", "Рено", "Жигуль", "Жигуль", "Ауди");
         BufferedWriter out = new BufferedWriter((new FileWriter("Cars")));
 
@@ -33,8 +32,4 @@ public class Cars {
             System.out.print(car + " ");
         }
     }
-
 }
-
-
-
