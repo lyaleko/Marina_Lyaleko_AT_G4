@@ -17,12 +17,12 @@ public class Figures {
 
     public static void main(String[] args) throws IOException {
 
-        List<String> myList = new ArrayList<>(Arrays.asList("Овал", "Прямоугольник", "Круг", "Квадрат", "Эллипс"));
+        List<String> figures = new ArrayList<>(Arrays.asList("Овал", "Прямоугольник", "Круг", "Квадрат", "Эллипс"));
 
         BufferedWriter out = new BufferedWriter((new FileWriter("figures.txt")));
 
-        for (String f : myList) {
-            if (f.matches(myList.get(myList.size() - 1)))
+        for (String f : figures) {
+            if (f.matches(figures.get(figures.size() - 1)))
                 out.write(f);
             else {
                 out.write(f + "-");
@@ -33,21 +33,21 @@ public class Figures {
 
         int count = 0;
 
-        for (String words : myList) {
+        for (String words : figures) {
             if (!words.contains("и")) {
                 count++;
             }
         }
         System.out.println(count);
 
-        for (int i = 0; i < myList.size(); ++i) {
-            System.out.print(myList.get(i) + " ");
+        for (int i = 0; i < figures.size(); ++i) {
+            System.out.print(figures.get(i) + " ");
         }
         System.out.println();
 
-        myList.set(3, "Треугольник");
+        figures.set(3, "Треугольник");
 
-        for (String str : myList) {
+        for (String str : figures) {
             System.out.print(str + " ");
         }
 

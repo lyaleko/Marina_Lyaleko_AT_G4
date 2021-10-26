@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="joined 2 logics in one &quot;for&quot;">
+    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="added elements to Array.asList()">
       <change afterPath="$PROJECT_DIR$/src/Marina_Lyaleko_AT_G4/tasks/classwork/classwork.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Marina_Lyaleko_AT_G4/tasks/tasks.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/classwork.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/tasks/tasks.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/arraylist/Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/arraylist/Cars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/arraylist/Figures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/arraylist/Figures.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
       <recent name="C:\Users\mlyal\Marina_Lyaleko_AT_G4\" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Butterflies">
+  <component name="RunManager" selected="Application.Figures">
     <configuration name="Birds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tasks.homework.arraylist.Birds" />
       <module name="Marina_Lyaleko_AT_G4" />
@@ -129,11 +130,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Figures" />
         <item itemvalue="Application.Butterflies" />
         <item itemvalue="Application.StringElements" />
         <item itemvalue="Application.Birds" />
         <item itemvalue="Application.Countries" />
-        <item itemvalue="Application.Figures" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +273,28 @@
       <option name="project" value="LOCAL" />
       <updated>1635282081687</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="removed extra lines in Car">
+      <created>1635282143553</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1635282143553</updated>
+    </task>
+    <task id="LOCAL-00020" summary="joined two logics in one &quot;for&quot;">
+      <created>1635282251628</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1635282251628</updated>
+    </task>
+    <task id="LOCAL-00021" summary="added elements to Array.asList()">
+      <created>1635282402599</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1635282402599</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -333,7 +355,10 @@
     <MESSAGE value="Added Elements" />
     <MESSAGE value="removed extra constructor" />
     <MESSAGE value="joined 2 logics in one &quot;for&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="joined 2 logics in one &quot;for&quot;" />
+    <MESSAGE value="removed extra lines in Car" />
+    <MESSAGE value="joined two logics in one &quot;for&quot;" />
+    <MESSAGE value="added elements to Array.asList()" />
+    <option name="LAST_COMMIT_MESSAGE" value="added elements to Array.asList()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
