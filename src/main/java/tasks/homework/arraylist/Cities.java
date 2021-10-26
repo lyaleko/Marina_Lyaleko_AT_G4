@@ -17,12 +17,10 @@ public class Cities {
         cities.add("Москва");
         cities.add("Берлин");
 
-        for (String city : cities) {
-            System.out.print(city + "\n");
-        }
         int count = 0;
 
         for (String city : cities) {
+            System.out.print(city + "\n");
             count += city.length();
         }
         System.out.println(count);
