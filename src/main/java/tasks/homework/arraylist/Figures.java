@@ -17,13 +17,7 @@ public class Figures {
 
     public static void main(String[] args) throws IOException {
 
-        List<String> myList = new ArrayList<>(Arrays.asList());
-
-        myList.add("Овал");
-        myList.add("Прямоугольник");
-        myList.add("Круг");
-        myList.add("Квадрат");
-        myList.add("Эллипс");
+        List<String> myList = new ArrayList<>(Arrays.asList("Овал", "Прямоугольник", "Круг", "Квадрат", "Эллипс"));
 
         BufferedWriter out = new BufferedWriter((new FileWriter("figures.txt")));
 
