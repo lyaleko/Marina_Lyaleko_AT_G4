@@ -12,19 +12,15 @@ public class Butterflies {
         myList.add("Aglais io");
         myList.add("Common blue");
 
-        for (String bab : myList) {
-            System.out.print("\"" + bab + "\"" + " ");
-        }
-        System.out.println();
-
         int count = 0;
 
         for (String words : myList) {
             if (words.contains("o")) {
                 count++;
             }
+            System.out.print("\"" + words + "\"" + " ");
         }
-
+        System.out.println();
         System.out.println(count);
 
         for (int i = 0; i < myList.size(); ++i) {
@@ -35,6 +31,5 @@ public class Butterflies {
         for (String str : myList) {
             System.out.print(str + "\n");
         }
-
     }
 }

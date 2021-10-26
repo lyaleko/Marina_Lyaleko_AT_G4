@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="Added Elements">
+    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="removed extra constructor">
       <change afterPath="$PROJECT_DIR$/src/Marina_Lyaleko_AT_G4/tasks/classwork/classwork.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Marina_Lyaleko_AT_G4/tasks/tasks.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/classwork.iml" afterDir="false" />
@@ -258,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635276509528</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="removed extra constructor">
+      <created>1635281552437</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1635281552437</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -317,7 +324,8 @@
     <MESSAGE value="Added Countries" />
     <MESSAGE value="Added Birds" />
     <MESSAGE value="Added Elements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Elements" />
+    <MESSAGE value="removed extra constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed extra constructor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
