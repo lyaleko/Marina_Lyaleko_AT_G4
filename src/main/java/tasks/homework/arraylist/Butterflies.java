@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Butterflies {
-    public Butterflies() {
-    }
 
     public static void main(String[] args) {
         List<String> myList = new ArrayList();
