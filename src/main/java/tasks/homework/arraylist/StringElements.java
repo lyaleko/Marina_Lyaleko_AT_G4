@@ -31,8 +31,8 @@ public class StringElements {
 
         String words2regex = ".+\\W+.+";
         int countMore1Word = 0;
-        for (String f : elements) {
-            if (f.matches(words2regex)) {
+        for (String word : elements) {
+            if (word.matches(words2regex)) {
                 countMore1Word++;
             }
         }
