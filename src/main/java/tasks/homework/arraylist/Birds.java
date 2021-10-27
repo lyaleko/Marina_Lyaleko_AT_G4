@@ -24,8 +24,8 @@ public class Birds {
         String vowels2Regex = "(?i).*" + vowelsRegex + ".*" + vowelsRegex + ".*";
         int countWordsVowels= 0;
 
-        for (String f : birds) {
-            if (f.matches(vowels2Regex)) {
+        for (String bird : birds) {
+            if (bird.matches(vowels2Regex)) {
                 countWordsVowels++;
             }
         }

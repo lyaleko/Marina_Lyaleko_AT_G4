@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="changed file name">
+    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="changed numbers of position in 3 lines">
       <change afterPath="$PROJECT_DIR$/src/Marina_Lyaleko_AT_G4/tasks/classwork/classwork.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Marina_Lyaleko_AT_G4/tasks/tasks.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/tasks/classwork/classwork.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/tasks/tasks.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/arraylist/Countries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/arraylist/Countries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/arraylist/Birds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/arraylist/Birds.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,7 +314,28 @@
       <option name="project" value="LOCAL" />
       <updated>1635356096441</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="changed String name">
+      <created>1635356397557</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1635356397557</updated>
+    </task>
+    <task id="LOCAL-00026" summary="changed String name">
+      <created>1635356467609</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1635356467609</updated>
+    </task>
+    <task id="LOCAL-00027" summary="changed numbers of position in 3 lines">
+      <created>1635356567565</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1635356567565</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -381,7 +401,9 @@
     <MESSAGE value="added elements to Array.asList()" />
     <MESSAGE value="changed myList to figures" />
     <MESSAGE value="changed file name" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed file name" />
+    <MESSAGE value="changed String name" />
+    <MESSAGE value="changed numbers of position in 3 lines" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed numbers of position in 3 lines" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
