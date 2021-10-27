@@ -44,9 +44,9 @@ public class StringElements {
         }
         System.out.println();
 
-        elements.add(3, "Spinner");
-        elements.remove(1);
-        elements.set(4, "Switch");
+        elements.add(4, "Spinner");
+        elements.remove(2);
+        elements.set(5, "Switch");
 
         for (String element : elements) {
             System.out.print(element + " ");
