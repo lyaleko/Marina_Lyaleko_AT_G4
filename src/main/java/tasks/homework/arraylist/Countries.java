@@ -24,8 +24,8 @@ public class Countries {
         System.out.println(String.join(", ", countries));
 
         int countCountries = 0;
-        for (String f : countries) {
-            if (f.length() < 7) {
+        for (String country : countries) {
+            if (country.length() < 7) {
                 countCountries++;
             }
         }
