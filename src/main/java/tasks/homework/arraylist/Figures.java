@@ -19,7 +19,7 @@ public class Figures {
 
         List<String> figures = new ArrayList<>(Arrays.asList("Овал", "Прямоугольник", "Круг", "Квадрат", "Эллипс"));
 
-        BufferedWriter out = new BufferedWriter((new FileWriter("figures.txt")));
+        BufferedWriter out = new BufferedWriter((new FileWriter("figures")));
 
         for (String f : figures) {
             if (f.matches(figures.get(figures.size() - 1)))
