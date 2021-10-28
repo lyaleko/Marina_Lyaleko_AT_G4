@@ -1,5 +1,7 @@
 package project.mix;
 
+import tasks.homework.arraylist.SandList;
+import java.lang.String;
 import java.util.Objects;
 
 public class Sand {

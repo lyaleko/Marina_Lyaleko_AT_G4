@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="added WaterList">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/arraylist/PersonList.java" afterDir="false" />
+    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="added PersonList">
       <change afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/arraylist/SandList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/mix/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/mix/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/project/mix/Sand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/mix/Sand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +46,7 @@
       <recent name="C:\Users\mlyal\Marina_Lyaleko_AT_G4\" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BubbleList">
+  <component name="RunManager" selected="Application.SandList">
     <configuration name="BubbleList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tasks.homework.arraylist.BubbleList" />
       <module name="Marina_Lyaleko_AT_G4" />
@@ -123,9 +121,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SandList" />
         <item itemvalue="Application.BubbleList" />
         <item itemvalue="Application.PersonList" />
-        <item itemvalue="Application.SandList" />
         <item itemvalue="Application.WaterList" />
         <item itemvalue="Application.Noodles" />
       </list>
@@ -252,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635368098500</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added PersonList">
+      <created>1635369285962</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1635369285962</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -311,7 +316,8 @@
     <MESSAGE value="added Noodles" />
     <MESSAGE value="added Bubbles task" />
     <MESSAGE value="added WaterList" />
-    <option name="LAST_COMMIT_MESSAGE" value="added WaterList" />
+    <MESSAGE value="added PersonList" />
+    <option name="LAST_COMMIT_MESSAGE" value="added PersonList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
