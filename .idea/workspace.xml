@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="added SandList">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/arraylist/ChairList.java" afterDir="false" />
+    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="added ChairList">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/arraylist/ChairList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/arraylist/ChairList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/arraylist/Doubles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/arraylist/Doubles.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +46,9 @@
       <recent name="C:\Users\mlyal\Marina_Lyaleko_AT_G4\" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ChairList">
-    <configuration name="BubbleList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.homework.arraylist.BubbleList" />
+  <component name="RunManager" selected="Application.Doubles">
+    <configuration name="ChairList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.homework.arraylist.ChairList" />
       <module name="Marina_Lyaleko_AT_G4" />
       <extension name="coverage">
         <pattern>
@@ -59,8 +60,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChairList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.homework.arraylist.ChairList" />
+    <configuration name="Doubles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.homework.arraylist.Doubles" />
       <module name="Marina_Lyaleko_AT_G4" />
       <extension name="coverage">
         <pattern>
@@ -85,19 +86,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.homework.arraylist.PersonList" />
-      <module name="Marina_Lyaleko_AT_G4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tasks.homework.arraylist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SandList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tasks.homework.arraylist.SandList" />
       <module name="Marina_Lyaleko_AT_G4" />
@@ -111,20 +99,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.homework.arraylist.StringElements" />
+      <module name="Marina_Lyaleko_AT_G4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tasks.homework.arraylist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.BubbleList" />
-      <item itemvalue="Application.PersonList" />
       <item itemvalue="Application.SandList" />
       <item itemvalue="Application.Numbers" />
       <item itemvalue="Application.ChairList" />
+      <item itemvalue="Application.StringElements" />
+      <item itemvalue="Application.Doubles" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Doubles" />
+        <item itemvalue="Application.StringElements" />
         <item itemvalue="Application.ChairList" />
         <item itemvalue="Application.SandList" />
         <item itemvalue="Application.Numbers" />
-        <item itemvalue="Application.BubbleList" />
-        <item itemvalue="Application.PersonList" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635445567067</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added ChairList">
+      <created>1635447413139</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1635447413139</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -324,7 +332,8 @@
     <MESSAGE value="added WaterList" />
     <MESSAGE value="added PersonList" />
     <MESSAGE value="added SandList" />
-    <option name="LAST_COMMIT_MESSAGE" value="added SandList" />
+    <MESSAGE value="added ChairList" />
+    <option name="LAST_COMMIT_MESSAGE" value="added ChairList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -344,6 +353,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/tasks/homework/arraylist/Doubles.java</url>
+          <line>12</line>
+          <properties class="tasks.homework.arraylist.Doubles" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/tasks/classwork/day6/ObjectContainerRunner.java</url>

@@ -22,7 +22,7 @@ public class Doubles {
         double result = doubles.stream()
                 .reduce((d1, d2) -> d1 * d2).get();
 
-        System.out.println(result);
+        System.out.println(String.format("%.2f", result));
 
         for (int i = 0; i < doubles.size(); i++) {
             System.out.print(doubles.get(i) + " ");

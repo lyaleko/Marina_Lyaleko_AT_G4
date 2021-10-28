@@ -45,5 +45,4 @@ public class ChairList {
             System.out.println(couples);
         }
     }
-
 }
