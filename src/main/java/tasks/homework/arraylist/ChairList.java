@@ -16,14 +16,13 @@ public class ChairList {
     public static void main(String[] args) {
 
         List<Chair> furniture = new ArrayList<>(Arrays.asList(new Chair(1, 2), new Chair(4, 2), new Chair(2, 4)));
+        Map<Integer, Chair> furnitureMap = new HashMap<>();
 
         for (Chair chair : furniture) {
             System.out.print(chair.getHeight() * chair.getWidth() + " ");
         }
 
         System.out.println();
-
-        Map<Integer, Chair> furnitureMap = new HashMap<>();
 
         for (int i = 0; i < furniture.size(); i++) {
             furnitureMap.put(i, furniture.get(i));
