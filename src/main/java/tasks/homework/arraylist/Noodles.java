@@ -2,6 +2,7 @@ package tasks.homework.arraylist;
 
 import java.util.ArrayList;
 import java.util.List;
+
 /*Создать пустой список стрингов noodles
     Добавить в список 4 вида макарон (Hakka, Ramen, Hibachi, Schezwan)
     Проитерировать список через for-each и отпечатать слова в консоль через тире
