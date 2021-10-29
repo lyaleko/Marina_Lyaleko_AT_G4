@@ -23,22 +23,19 @@ public class SandList {
     public static void main(String[] args) {
 
         List<Sand> sandbox = new ArrayList<>(Arrays.asList(new Sand(2, "Речной"), new Sand(4, "Речной"), new Sand(2, "Карьерный"), new Sand(7, "Речной")));
+        Map<Integer, Sand> sandboxMap = new HashMap<>();
 
         for (Sand sand : sandbox) {
             System.out.print(sand.getWeight() + " ");
-
         }
 
         System.out.println();
 
         for (Sand sand : sandbox) {
-
             System.out.print(sand.getName() + " ");
         }
 
         System.out.println();
-
-        Map<Integer, Sand> sandboxMap = new HashMap<>();
 
         for (int i = 0; i < sandbox.size(); i++) {
             sandboxMap.put(sandboxMap.size(), sandbox.get(i));

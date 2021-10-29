@@ -32,7 +32,7 @@ public class Numbers {
             System.out.print(numbers.get(i) + " ");
         }
 
-        Collections.sort(numbers, Collections.reverseOrder());
+        Collections.reverse(numbers);
         System.out.println();
 
         for (int number: numbers){
