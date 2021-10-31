@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="removed extra empty lines">
       <change beforePath="$PROJECT_DIR$/src/main/java/project/boxing/Warehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/boxing/Warehouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/stringtask/UseUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/stringtask/UseUtility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
