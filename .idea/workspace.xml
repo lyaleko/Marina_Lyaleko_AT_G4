@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="Added changes to Person">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/streamtask/MyStreamClass.java" afterDir="false" />
+    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="Added Stream tasks #1,2">
       <change afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/streamtask/Person.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/streamtask/PersonRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/project/boxing/VesselBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/boxing/VesselBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/project/feature/Stocktaking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/feature/Stocktaking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/streamtask/MyStreamClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/streamtask/MyStreamClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -337,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635356567565</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Added Stream tasks #1,2">
+      <created>1635787149061</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1635787149062</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -380,7 +387,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="New changes added to basetask" />
     <MESSAGE value="Added 2 packages basetask and cycletask" />
     <MESSAGE value="Added 2 Classes RandomNumbersFor and RandomNumbersArray, update Runner" />
     <MESSAGE value="Added counter CountIntNumbers and number filter BackorderSpecNumbers" />
@@ -405,7 +411,8 @@
     <MESSAGE value="changed file name" />
     <MESSAGE value="changed String name" />
     <MESSAGE value="changed numbers of position in 3 lines" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed numbers of position in 3 lines" />
+    <MESSAGE value="Added Stream tasks #1,2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Stream tasks #1,2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
