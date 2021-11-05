@@ -7,23 +7,28 @@ package project.boxing;
 import project.feature.Transformable;
 import project.feature.Containable;
 import project.liquid.SparklingWater;
+import java.io.Serializable;
 
-public class Bottle extends Vessel implements Containable{
+public class Bottle extends Vessel implements Containable,Serializable {
 
-    private double volume;
+   // private double volume;
     private SparklingWater water;
+    private int [] arrBubbles;
 
     public Bottle(double volume){ // конструктор Bottle(double volume), в котором
         // бутылка заполняется массивом из пузырьков из рассчета 10000 на каждый литр
         System.out.println("Bottle filled with bubbles");
         this.volume = volume;
-        int[] arrBubbles = new int[10];
-        double fullValue = volume * 10000;
+        this.arrBubbles = new int[(int) (volume * 10000)];
 
     }
 
-    public Bottle() {
-
+    @Override
+    public String toString() {
+        return "Bottle{" +
+                "arrBubbles=" + arrBubbles.length +
+                ", volume=" + volume +
+                '}';
     }
 
     public double getVolume() {
@@ -77,6 +82,4 @@ public class Bottle extends Vessel implements Containable{
         System.out.print("Add new Water");
         return water;
     }
-
 }
-
