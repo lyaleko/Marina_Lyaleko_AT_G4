@@ -1,6 +1,8 @@
 package project.material;
 
-public abstract class Material{
+import java.io.Serializable;
+
+public abstract class Material implements Serializable {
 
     private double thermalConductivity;
     private String color;
@@ -34,5 +36,14 @@ public abstract class Material{
 
     public void setDensity(double density) {
         this.density = density;
+    }
+
+    @Override
+    public String toString() {
+        return "Material{" +
+                "thermalConductivity=" + thermalConductivity +
+                ", color='" + color + '\'' +
+                ", density=" + density +
+                '}';
     }
 }
