@@ -31,8 +31,6 @@ public class MyStreamClass {
         System.out.println("Input max number");
         int maxNumber = sc.nextInt();
 
-        List<Integer> numberMinMax = Stream.iterate(minNumber, n -> n + 1).limit(maxNumber).collect(Collectors.toList());
-
         boolean numMatch = IntStream.range(minNumber,maxNumber)
                 .anyMatch(n -> (n % 3 == 0 && n % 5 ==0));
         System.out.println(numMatch);
