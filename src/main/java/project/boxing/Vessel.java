@@ -1,13 +1,14 @@
 package project.boxing;
 
 import project.material.Material;
+import java.io.Serializable;
 
-public abstract class Vessel{
+public abstract class Vessel implements Serializable {
 
-    private double volume;
-    private double diameter;
-    private int weight;
-    private Material material;
+    protected double volume;
+    protected double diameter;
+    protected int weight;
+    protected Material material;
 
     public Vessel(double volume, double diameter, int weight, Material material) {
         this.volume = volume;
