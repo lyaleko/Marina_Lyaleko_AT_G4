@@ -1,6 +1,6 @@
 package project.feature;
 
-import project.boxing.VesselBox;
+//import project.boxing.VesselBox;
 import tasks.classwork.day7.Table;
 
 import java.io.FileOutputStream;
@@ -14,7 +14,7 @@ public class Stocktaking {
         FileOutputStream fos = new FileOutputStream("t.tmp");
         ObjectOutputStream oos = new ObjectOutputStream(fos);
 
-        oos.writeObject(new VesselBox<>());
+      //  oos.writeObject(new VesselBox<>());
         oos.close();
     }
 }

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="Removed extra folder">
+    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="Added generics New Classes VesselBox, Warehouse. Changed Bottle,Cup, Material,Stocktaking,Vessel">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/feature/Stocktaking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/feature/Stocktaking.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="project_day6_generics" />
+        <entry key="$PROJECT_DIR$" value="new_project_day6_generics" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,7 +52,7 @@
       <recent name="C:\Users\mlyal\Marina_Lyaleko_AT_G4\" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyStreamClass">
+  <component name="RunManager" selected="Application.UseUtility">
     <configuration name="MyStreamClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tasks.homework.streamtask.MyStreamClass" />
       <module name="Marina_Lyaleko_AT_G4" />
@@ -104,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.classwork.day9.StreamList" />
+    <configuration name="UseUtility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.homework.stringtask.UseUtility" />
       <module name="Marina_Lyaleko_AT_G4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tasks.classwork.day9.*" />
+          <option name="PATTERN" value="tasks.homework.stringtask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,19 +119,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StreamList" />
       <item itemvalue="Application.PersonArray" />
       <item itemvalue="Application.MyStreamClass" />
       <item itemvalue="Application.Stocktaking" />
       <item itemvalue="Application.PersonRunner" />
+      <item itemvalue="Application.UseUtility" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UseUtility" />
         <item itemvalue="Application.PersonRunner" />
         <item itemvalue="Application.Stocktaking" />
         <item itemvalue="Application.MyStreamClass" />
         <item itemvalue="Application.PersonArray" />
-        <item itemvalue="Application.StreamList" />
       </list>
     </recent_temporary>
   </component>
@@ -360,7 +361,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="homework_day8_arraylist" />
+                        <option value="project_day6_generics" />
                       </list>
                     </value>
                   </entry>
@@ -430,7 +431,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/tasks/classwork/day6/ObjectContainerRunner.java</url>
           <line>10</line>
-          <properties class="tasks.classwork.day6.ObjectContainerRunner">
+          <properties class="tasks.classwork.day6.ObjectContainerRunner" method="main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="5" />
