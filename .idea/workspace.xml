@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="Removed extra folder">
-      <change afterPath="$PROJECT_DIR$/bottle.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cup.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/Marina_Lyaleko_AT_G4/tasks/tasks.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Marina_Lyaleko_AT_G4/tasks/classwork/classwork.iml" beforeDir="false" />
     </list>
@@ -427,7 +424,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/tasks/classwork/day6/ObjectContainerRunner.java</url>
           <line>10</line>
-          <properties class="tasks.classwork.day6.ObjectContainerRunner" method="main">
+          <properties class="tasks.classwork.day6.ObjectContainerRunner">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="5" />
