@@ -51,34 +51,6 @@ public class UseUtility {
 //написать метод, который выводит список из уникальных IP адресов и количества удачных и неудачных попыток доступа в формате:
 //ip 212.168.101.5: ok - 3, failed - 2
 
-        String ip;
-        int ok = 0;
-        int failed = 0;
-
-        String log = "access_log.2020.09.07 212.168.101.5 granted\n" + "access_log.2020.09.07 212.168.101.6 denied";
-
-     //   log =  log.replaceAll( "granted\\s*access_log", "granted access_log" );
-        Pattern p2 = Pattern.compile("(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)");// ("([01]?[0-9]{1,2}|2[0-4][0-9]|25[0-5])");
-        Matcher m2 = p2.matcher(log);
-
-        while(m2.find()) {
-            System.out.print(m2.group() + " ");
-        }
-
-        System.out.println();
-// TODO
-/*        List<String> ips = new ArrayList(Collections.singleton(m2));
-
-        for (String oneIP : ips) {
-            if (log.matches(m2.group())) {
-                ok ++;
-            }
-            else{
-                failed ++;
-            }
-        }
-
-        System.out.println("ok - " + ok + ", " + "failed - " + failed);*/
 
 // 2.4 написать метод, который выводит в консоль текущую дату и время в формате: 19 сентября, 2020, 3 часа 13 минут
 
