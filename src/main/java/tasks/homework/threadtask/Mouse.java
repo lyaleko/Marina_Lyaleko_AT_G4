@@ -20,7 +20,7 @@ public class Mouse {
 
     public void peep() {
 
-        System.out.printf(String.format("%s PEEP ", this.name));
+        System.out.printf(String.format("\n" + "%s PEEP ", this.name));
         try {
             Thread.sleep(200);
         } catch (InterruptedException e) {
