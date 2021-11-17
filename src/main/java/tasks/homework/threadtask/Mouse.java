@@ -28,12 +28,4 @@ public class Mouse {
         }
     }
 
-    public static void main(String[] args) {
-
-        for (int i = 1; i < 6; i++) {
-            Mouse mouse = new Mouse(i);
-            mouse.peep();
-
-        }
-    }
 }
