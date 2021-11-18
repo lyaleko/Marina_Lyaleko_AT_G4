@@ -18,7 +18,7 @@ public class Hedgehog {
 
     public void tellMe() {
 
-        System.out.printf(String.format("I am %s! ", this.name));
+        System.out.printf(String.format("I am %s! \n", this.name));
         try {
             Thread.sleep(50);
         } catch (InterruptedException e) {
