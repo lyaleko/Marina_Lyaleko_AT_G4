@@ -6,16 +6,15 @@ package tasks.homework.arraylist;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import project.mix.Water;
 
 public class WaterList {
 
     public static void main(String[] args) {
 
-        List<Water> water = new ArrayList<>(Arrays.asList(new Water("Прозрачная", "Нет"), new Water("Прозрачная", "Нет"), new Water("Мутная", "Аммиачный")));
+        List<Water2> water = new ArrayList<>(Arrays.asList(new Water2("Прозрачная", "Нет"), new Water2("Прозрачная", "Нет"), new Water2("Мутная", "Аммиачный")));
 
-        for (Water kindOfWater: water){
-            System.out.println(kindOfWater.getColor() + "-" + kindOfWater.getSmell());
+        for (Water2 kindOfWater2: water){
+            System.out.println(kindOfWater2.getColor() + "-" + kindOfWater2.getSmell());
         }
     }
 }

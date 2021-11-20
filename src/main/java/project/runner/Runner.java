@@ -1,5 +1,10 @@
 package project.runner;
-import project.boxing.Bottle;
+// **- создать класс Runner, содержащий main
+//- в нем создать 3 бутылки, объёмом 0.5, 1, 1.5 лира с газировкой
+//- открыть поочередно все бутылки и выпустить из них газ
+
+// - class Runner - to run everything
+import project.vessel.Bottle;
 
 public class Runner {
 

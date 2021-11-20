@@ -1,6 +1,6 @@
 package tasks.homework.arraylist;
 
-import project.mix.Bubble;
+import project.stuff.Bubble;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -19,14 +19,14 @@ public class BubbleList {
         int volumes = 0;
 
         for (Bubble bubble : bubbles) {
-            System.out.print(bubble.getVolume() + " ");
-            volumes += bubble.getVolume();
+            System.out.print(bubble.getBubbleVolume() + " ");
+            volumes += bubble.getBubbleVolume();
         }
 
         System.out.println();
 
         for (Bubble bubble : bubbles) {
-            System.out.print(bubble.getName() + " ");
+            System.out.print(bubble.getCarbonicGas() + " ");
         }
 
         System.out.println("\n" + volumes);

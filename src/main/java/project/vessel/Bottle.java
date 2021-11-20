@@ -1,17 +1,32 @@
-package project.boxing;
-/*создать класс Bottle
+package project.vessel;
+/* **создать класс Bottle
 у него есть обьем
 есть вода
 есть метод open(), который вызывает метод degas() в газировке*/
+/* **содеждит приватные поля double volume, SparklingWater water
+ содержит конструктор Bottle(double volume), в котором бутылка заполняется массивом из пузырьков из рассчета 10000 на каждый литр
+ есть публичный метод void open(), который меняет состояние воды в "открытое" (приблизительно, как this.water.setOpened(true);)
+ есть публичный метод void warm(int temperature), который устанавливает температуру воды в бутылке
+ есть публичный метод SparklingWater getWater() возвращающий обьект воды
+ есть публичный метод setWater(SparklingWater water) добавляющий новый обьект воды*/
 
-import project.feature.Transformable;
-import project.feature.Containable;
-import project.liquid.SparklingWater;
+/* **- classes Bottle, Cup, Can, Glass, Plastic, Metal have constructors, which set all fields with default values
+        - all fields should have gettres and setters*/
+// - all extending classes Bottle, Cup, Can calling super() constructor and set values:
+//** ---- diameter - default for Bottle - 2.0, Cup - 8.0, Can - 10.0
+//---- volume - is passed from child constructor
+//---- material - is passed from child constructor
+//- all extending classes Bottle, Cup, Can have private Transformable stuff
+
+import project.material.Material;
+import project.stuff.Transformable;
+import project.stuff.SparklingWater;
 
 public class Bottle extends Vessel implements Containable{
 
     private double volume;
     private SparklingWater water;
+    private Transformable stuff;
 
     public Bottle(double volume){ // конструктор Bottle(double volume), в котором
         // бутылка заполняется массивом из пузырьков из рассчета 10000 на каждый литр
@@ -22,8 +37,8 @@ public class Bottle extends Vessel implements Containable{
 
     }
 
-    public Bottle() {
-
+    public Bottle(double volume,double diameter,  Material material) {
+        super (volume, 2.0, material);
     }
 
     public double getVolume() {
