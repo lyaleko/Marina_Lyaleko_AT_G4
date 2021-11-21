@@ -3,7 +3,6 @@
 вода заполняется пузырьками при упаковке на заводе, для этого у нее есть метод pump(Bubble[] bubbles)
 1 литр воды содержит 10 тыс пузырьков
 у газировки есть метод degas(), который удаляет пузырьки по одному и вызывает их лопанье*/
-
 /*  **------ наследуется от Water
         ------ содеждит приватные поля boolean isOpened, Bubble[] bubbles
         ------ содержит конструктор SparklingWater(), который вызывает внутренний метод isOpened();
@@ -14,15 +13,10 @@
         ------ есть публичный метод boolean isSparkle(), возвращающий true если в воде еще есть пузырьки газа
         -- каждый метод должен содержать сообщение о том, что он делает, например:
         System.out.printf("Warming water to: %s", temperature).println();*/
-// - class SparklingWater extends Water
 //---- private boolean isOpened, Bubble[] bubbles
 //---- public SparklingWater(), конструктор, который сетает нужное количество пузырьков из рассчета, что 1 литр воды содержит 10 тыс пузырьков и вызывает внутренний метод isOpened();
-//---- private isOpened(), который раз в 2 секунды (используем Thread.sleep()) проверяет, состояние закрытости в бутылке и если бутылка открылась, то запускает внутренний метод degas()
-//---- private degas(), который каждую секунду выпускает по партии пузырьков из рассчета 10 + 5 * температура_воды
-//---- public setOpen(), который переводит состояние открытости true
+//????---- private isOpened(), который раз в 2 секунды (используем Thread.sleep()) проверяет, состояние закрытости в бутылке и если бутылка открылась, то запускает внутренний метод degas()
 package project.stuff;
-import project.stuff.Bubble;
-import project.stuff.Water;
 
 import java.util.Arrays;
 import java.util.Timer;
@@ -32,8 +26,8 @@ public class SparklingWater extends Water {
 
     private boolean isOpened = false;
     private Bubble[] bubbles = {};
-    // содержит конструктор SparklingWater(), который сетает нужное количество пузырьков из рассчета, что 1 литр воды содержит 10 тыс пузырьков и вызывает внутренний метод и вызывает внутренний метод isOpened();
-    public SparklingWater(String color, String transparency, String smell, int temperature){
+
+    public SparklingWater(String color, String transparency, String smell, int temperature){ // содержит конструктор SparklingWater(), который вызывает внутренний метод isOpened();
         isOpened();
     }
     public SparklingWater(double volume){ //конструктор, который сетает нужное количество пузырьков из рассчета, что 1 литр воды содержит 10 тыс пузырьков и вызывает внутренний метод isOpened();
@@ -45,19 +39,16 @@ public class SparklingWater extends Water {
         isOpened();
     };
 
-    public SparklingWater(){ //конструктор, который сетает нужное количество пузырьков из рассчета, что 1 литр воды содержит 10 тыс пузырьков и вызывает внутренний метод isOpened();
-
-    };
-    public void pump(Bubble[] bubbles){ // сетает массив из пузырьков в воду
-        System.out.println("Set bubbles");
+    public void pump(Bubble[] bubbles){   //вода заполняется пузырьками при упаковке на заводе
+        System.out.println("Set bubbles"); // сетает массив из пузырьков в воду
         this.bubbles = bubbles;
-
     }
+
     public void setOpened(boolean isOpened){ // меняет состояние воды на "открытое", который переводит состояние открытости true
         System.out.printf("Is Water opened = %s ", isOpened).println();
         this.isOpened = isOpened;
     }
-// //---- private isOpened(), который раз в 2 секунды (используем Thread.sleep())
+// ??---- private isOpened(), который раз в 2 секунды (используем Thread.sleep())
 // проверяет, состояние закрытости в бутылке и если бутылка открылась, то запускает внутренний метод degas()
     private void isOpened() { // в новом потоке проверят состояние воды на "открытость"
         // и в случае, если она открыта запускает метод degas()
@@ -102,4 +93,3 @@ public class SparklingWater extends Water {
 
     }
 }
-

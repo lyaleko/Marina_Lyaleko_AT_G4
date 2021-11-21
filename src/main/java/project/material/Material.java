@@ -1,12 +1,17 @@
 package project.material;
-/* **- abstract class Material (extending classes Glass, Plastic, Metal)
- -- private double thermalConductivity;
-        -- private String color;
-        -- private double density;
-        -- all field are set in costructor*/
+//- abstract class Material (extending classes Glass, Plastic, Metal)
+// package material
+//????- enum Material (GLASS, PLASTIC, METAL)
+// -- private double thermalConductivity;
+// -- private String color;
+// -- private double density;
+// -- all field are set in constructor
 
 public abstract class Material{
 
+/*enum Material {
+    GLASS, PLASTIC, METAL
+}*/
     private double thermalConductivity;
     private String color;
     private double density;
@@ -39,5 +44,14 @@ public abstract class Material{
 
     public void setDensity(double density) {
         this.density = density;
+    }
+
+    @Override
+    public String toString() {
+        return "Material{" +
+                "thermalConductivity=" + thermalConductivity +
+                ", color='" + color + '\'' +
+                ", density=" + density +
+                '}';
     }
 }
