@@ -7,11 +7,14 @@ package project.material;
 // -- private double density;
 // -- all field are set in constructor
 
-public abstract class Material{
+enum MaterialEnum {
+    GLASS,
+    PLASTIC,
+    METAL
+}
 
-/*enum Material {
-    GLASS, PLASTIC, METAL
-}*/
+public abstract class Material {
+
     private double thermalConductivity;
     private String color;
     private double density;

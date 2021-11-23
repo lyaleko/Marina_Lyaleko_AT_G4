@@ -26,7 +26,7 @@ public class BubbleList {
         System.out.println();
 
         for (Bubble bubble : bubbles) {
-            System.out.print(bubble.getCarbonicGas() + " ");
+            System.out.print(bubble.getGas() + " ");
         }
 
         System.out.println("\n" + volumes);
