@@ -1,45 +1,40 @@
-/* **создать класс Bubble
- у пузырька должен быть обьем, газовый состав
- он должен уметь лопаться с выводом в консоль «Cramp!»
- обьем пузырька постоянный и равен 0.3 мм2, а газовый состав переменный
- в зависимости от образующего газа и задается в конструкторе класса*/
-
-// ** содеждит приватные поля double volume = 03, String gas;
-//------ содержит конструктор Bubble(String gas), в который передается строка с названием газа пузырька
-//------ есть публичный метод void cramp(), который в консоль выводит слово "Cramp!"
-//------ есть публичный метод double getVolume(), возвращающий обьем пузырька
-
-/*class Bubble
----- public static final double VOLUME = 03
----- public void cramp(), который в консоль выводит слово "Cramp!"
-*/
 package project.stuff;
+// создать класс Bubble
+// у пузырька должен быть обьем, газовый состав
+// он должен уметь лопаться с выводом в консоль «Cramp!»
+// ???? а газовый состав переменный в зависимости от образующего газа и
+// задается в конструкторе класса*/
+
+// public static final double VOLUME = 03, String gas;
+// содержит конструктор Bubble(String gas), в который передается строка с названием газа пузырька
+// есть публичный метод void cramp(), который в консоль выводит слово "Cramp!"
+// есть публичный метод double getVolume(), возвращающий обьем пузырька
 
 import java.util.Objects;
 
 public class Bubble {
 
     public static final double VOLUME = 0.3;
-    private String carbonicGas;
+    private String gas;
 
-    public Bubble(double VOLUME, String carbonicGas){ //передается строка с названием газа пузырька
-        System.out.printf("Gas name is: %s", carbonicGas).println();
-        this.carbonicGas = carbonicGas;
-
-    }
-    public String getCarbonicGas() {
-        return carbonicGas;
+    public Bubble(double volume, String gas){ //передается строка с названием газа пузырька
+        System.out.printf("Gas name is: %s", gas).println();
+        this.gas = gas;
 
     }
-    public void setCarbonicGas(String carbonicGas) {
-        this.carbonicGas = carbonicGas;
+    public String getGas() {
+        return gas;
+
+    }
+    public void setGas(String gas) {
+        this.gas = gas;
 
     }
     public void cramp(){ //в консоль выводит слово "Cramp!"
         System.out.println("Cramp!");
 
     }
-    public double getBubbleVolume() { //возвращающий обьем пузырька
+    public double getVolume() { //возвращающий обьем пузырька
         System.out.printf("Volume of bubble is: %s", VOLUME).println();
         return VOLUME;
     }
@@ -48,7 +43,7 @@ public class Bubble {
     @Override
     public String toString() {
         return "Bubble{" +
-                "carbonicGas='" + carbonicGas + '\'' +
+                "gas='" + gas + '\'' +
                 '}';
     }
 
@@ -57,11 +52,11 @@ public class Bubble {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Bubble bubble = (Bubble) o;
-        return Objects.equals(carbonicGas, bubble.carbonicGas);
+        return Objects.equals(gas, bubble.gas);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(carbonicGas);
+        return Objects.hash(gas);
     }
 }

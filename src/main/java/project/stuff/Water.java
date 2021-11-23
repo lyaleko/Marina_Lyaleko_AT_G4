@@ -15,7 +15,6 @@
 ---- all fields have getters and setters*/
 package project.stuff;
 
-import project.stuff.Transformable;
 import java.util.Objects;
 
 public abstract class Water implements Transformable {
@@ -87,4 +86,3 @@ public abstract class Water implements Transformable {
         this.temperature = temperature;
     }
 }
-

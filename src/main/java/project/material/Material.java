@@ -1,10 +1,21 @@
 package project.material;
-/* **- abstract class Material (extending classes Glass, Plastic, Metal)
- -- private double thermalConductivity;
-        -- private String color;
-        -- private double density;
-        -- all field are set in costructor*/
+//abstract class Material (extending classes Glass, Plastic, Metal)
+// private double thermalConductivity;
+// private String color;
+// private double density;
+// all field are set in constructor
 
+// package material
+//????- enum Material (GLASS, PLASTIC, METAL)
+// -- private double thermalConductivity;
+// -- private String color;
+// -- private double density;
+// -- all field are set in constructor
+enum MaterialEnum{
+    GLASS,
+    PLASTIC,
+    METAL,
+}
 public abstract class Material{
 
     private double thermalConductivity;
