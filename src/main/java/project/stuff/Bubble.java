@@ -15,19 +15,19 @@ import java.util.Objects;
 public class Bubble {
 
     public static final double VOLUME = 0.3;
-    private String carbonicGas;
+    private String gas;
 
-    public Bubble(double VOLUME, String carbonicGas){ //передается строка с названием газа пузырька
+    public Bubble(double volume, String carbonicGas){ //передается строка с названием газа пузырька
         System.out.printf("Gas name is: %s", carbonicGas).println();
-        this.carbonicGas = carbonicGas;
+        this.gas = carbonicGas;
 
     }
-    public String getCarbonicGas() {
-        return carbonicGas;
+    public String getGas() {
+        return gas;
 
     }
-    public void setCarbonicGas(String carbonicGas) {
-        this.carbonicGas = carbonicGas;
+    public void setGas(String gas) {
+        this.gas = gas;
 
     }
     public void cramp(){ //в консоль выводит слово "Cramp!"
@@ -42,7 +42,7 @@ public class Bubble {
     @Override
     public String toString() {
         return "Bubble{" +
-                "carbonicGas='" + carbonicGas + '\'' +
+                "carbonicGas='" + gas + '\'' +
                 '}';
     }
 
@@ -51,11 +51,11 @@ public class Bubble {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Bubble bubble = (Bubble) o;
-        return Objects.equals(carbonicGas, bubble.carbonicGas);
+        return Objects.equals(gas, bubble.gas);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(carbonicGas);
+        return Objects.hash(gas);
     }
 }
