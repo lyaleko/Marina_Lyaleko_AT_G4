@@ -8,7 +8,7 @@ package project.vessel;
 // material - is passed from child constructor
 // all extending classes Bottle, Cup, Can have private Transformable stuff
 
-import project.material.Material;
+import project.materials.Material;
 import project.stuff.Transformable;
 import java.io.Serializable;
 

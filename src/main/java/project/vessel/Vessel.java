@@ -10,7 +10,7 @@ package project.vessel;
 //---- weight is set in constructor as density * volume / 4
 //---- all fields have getters and setters
 
-import project.material.Material;
+import project.materials.Material;
 
 public abstract class Vessel{
 
