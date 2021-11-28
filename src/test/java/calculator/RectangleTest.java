@@ -35,26 +35,26 @@ public class RectangleTest {
 
     @Test
     public void figureGetLengthTest(){
-        Assert.assertTrue("Rectangle is not correct", length== figure.getLength());
+        Assert.assertEquals("Rectangle is not correct", length, figure.getLength(), 0.0);
     }
 
     @Test
     public void figureGetWidthTest(){
-        Assert.assertTrue("Rectangle is not correct", width== figure.getWidth());
+        Assert.assertEquals("Rectangle is not correct", width, figure.getWidth(), 0.0);
     }
 
     @Test
     public void figureSetLengthTest() {
         var value = 25;
         figure.setLength(value);
-        Assert.assertTrue("Rectangle is not correct", value== figure.getLength());
+        Assert.assertEquals("Rectangle is not correct", value, figure.getLength(), 0.0);
     }
 
     @Test
     public void figureSetWidthTest() {
         var value = 10;
         figure.setWidth(value);
-        Assert.assertTrue("Rectangle is not correct", value==figure.getWidth());
+        Assert.assertEquals("Rectangle is not correct", value, figure.getWidth(), 0.0);
     }
 
 }

@@ -29,20 +29,25 @@ public class CalculatorTest {
 
     @Test
     public void addNumbersTest(){
-        Assert.assertEquals("Addition is incorrect: ",12, this.calc.add(x,y));
+        Assert.assertEquals("Addition is incorrect: ",12, calc.add(x,y));
     }
     @Test
     public void subtractNumbersTest(){
-        Assert.assertEquals("Subtraction is incorrect: ",6, this.calc.subtract(x,y));
+        Assert.assertEquals("Subtraction is incorrect: ",6, calc.subtract(x,y));
     }
 
     @Test
     public void multiplyNumbersTest(){
-        Assert.assertEquals("Multiply is incorrect: ",27, this.calc.multiply(x,y));
+        Assert.assertEquals("Multiply is incorrect: ",27, calc.multiply(x,y));
     }
 
     @Test
     public void divideNumbersTest(){
-        Assert.assertEquals("Divide is incorrect: ",3, this.calc.divide(x,y));
+        Assert.assertEquals("Divide is incorrect: ",3, calc.divide(x,y));
+    }
+
+    @Test(expected = java.lang.ArithmeticException.class)
+    public void divideByZeroNumbersTest() {
+        Assert.assertEquals("Divide by zero is incorrect", 0, calc.divide(10, 0));
     }
 }
