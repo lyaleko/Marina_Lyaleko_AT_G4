@@ -1,0 +1,41 @@
+H1{
+    font-family: Century Gothic, sans-serif;
+    font-size: 500%
+}
+
+p{
+    font-size: 12pt,Century Gothic, sans-serif;
+    color: grey;
+}
+
+input{
+    background-position: center;
+	font-weight: bold;
+    height: 110px;
+    width: 400px;
+    border: unset;
+    font-size: 200%;
+}
+#about {
+    background: url(http://i.mirozor.ru/u/87/335826e82211e7b90588b795a9d46e/-/141.png);
+}
+#regis {
+    background: url(http://i.mirozor.ru/u/1e/a044ece81611e79dbfd55b8d2b33ea/-/57.png);
+}
+#media {
+    background: url(https://new-year-party.ru/wp-content/uploads/2020/06/christmas_PNG17220.png);
+}
+
+#about:hover, #regis:hover, #media:hover {
+    cursor: pointer;
+    background-color: #89d4e7;
+}
+#elem1, #elem2 {
+    position: absolute; 
+    bottom: 15px;
+    cursor: pointer;
+}
+
+body{
+text-align: center;
+}
