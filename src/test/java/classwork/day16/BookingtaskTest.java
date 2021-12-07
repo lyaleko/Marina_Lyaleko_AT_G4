@@ -1,6 +1,8 @@
 package classwork.day16;
 
 import org.junit.Assert;
+import org.junit.Test;
+import org.junit.Before;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
@@ -8,20 +10,24 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
+
+import java.sql.Driver;
 import java.time.Duration;
 import java.util.Arrays;
 import java.util.concurrent.TimeUnit;
 
-public class Bookingtask {
+public class BookingtaskTest {
 
-    public static void main(String[] args) throws InterruptedException {
+    WebDriver driver;
 
+    @Before
+    public void before(){
+        driver = new ChromeDriver();
+        setTimeouts(30);
+    }
 
-        WebDriver driver = new ChromeDriver();
-
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(30,TimeUnit.SECONDS);
-        driver.manage().timeouts().setScriptTimeout(30,TimeUnit.SECONDS);
+    @Test
+    public void highestPriceTest() {
 
         driver.manage().window().maximize();
         driver.navigate().to("https://www.booking.com/");
@@ -56,16 +62,21 @@ public class Bookingtask {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS); // turn on implicitlyWait
 
         WebElement webElement = driver.findElement(
-                        By.xpath("//div[@id='search_results_table']//div[@data-testid='property-card'][1]//div[@data-testid='price-and-discounted-price']//span[1]"));
+                By.xpath("//div[@id='search_results_table']//div[@data-testid='property-card'][1]//div[@data-testid='price-and-discounted-price']//span[1]"));
 
         String actualMaxPriceText = Arrays.stream(webElement.getText().split("BYN")).skip(1).findFirst().get().trim().replace(" ", "");
 
         int actualMaxPrice = Integer.parseInt(actualMaxPriceText.replaceAll("\\D+", ""));
 
         System.out.println("Expected price: " + expectedMaxPrice);
-        System.out.println("Actual price: " + actualMaxPrice);
+        System.out.println("Actual price: " + actualMaxPrice / 7);
 
-        Assert.assertTrue("Expected hotel price is lower than expected!", actualMaxPrice/7 >= expectedMaxPrice);
+        Assert.assertTrue("Expected hotel price is lower than expected!", actualMaxPrice / 7 >= expectedMaxPrice);
+    }
 
+    private void setTimeouts(int time) {
+        driver.manage().timeouts().implicitlyWait(time, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(time, TimeUnit.SECONDS);
+        driver.manage().timeouts().setScriptTimeout(time, TimeUnit.SECONDS);
     }
 }
