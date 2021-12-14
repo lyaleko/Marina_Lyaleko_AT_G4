@@ -1,0 +1,8 @@
+//span[contains(.,'О компании')]
+//a[contains(@href,'cn')]
+//span[contains (.,'Наши представительства')]
+//img[@title = 'Спартак']
+//img[@src = '/bitrix/templates/our_shop/images/Quality.png'][1]
+//img[@title = 'Конфеты']
+//a[contains(@href,'https://vk.com/spartakby')]
+//a[contains(@href,'https://www.youtube.com/channel/UC2xYusMBxs4XkwoPotvTw4A')]
