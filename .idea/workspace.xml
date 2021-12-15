@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="hidden VesselBox in Stocktaking">
+    <list default="true" id="adb29023-5e3a-41f6-b1b7-66a92f39833b" name="Changes" comment="removed log task from UseUtility">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/stringtask/UserAttempt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/homework/stringtask/UseUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/homework/stringtask/UseUtility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="new_project_day6_generics" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,26 +52,13 @@
       <recent name="C:\Users\mlyal\Marina_Lyaleko_AT_G4\" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UseUtility">
+  <component name="RunManager" selected="Application.UserAttempt">
     <configuration name="MyStreamClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tasks.homework.streamtask.MyStreamClass" />
       <module name="Marina_Lyaleko_AT_G4" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tasks.homework.streamtask.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.classwork.day9.PersonArray" />
-      <module name="Marina_Lyaleko_AT_G4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tasks.classwork.day9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,20 +105,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserAttempt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.homework.stringtask.UserAttempt" />
+      <module name="Marina_Lyaleko_AT_G4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tasks.homework.stringtask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.PersonArray" />
       <item itemvalue="Application.MyStreamClass" />
       <item itemvalue="Application.Stocktaking" />
       <item itemvalue="Application.PersonRunner" />
       <item itemvalue="Application.UseUtility" />
+      <item itemvalue="Application.UserAttempt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserAttempt" />
         <item itemvalue="Application.UseUtility" />
         <item itemvalue="Application.PersonRunner" />
         <item itemvalue="Application.Stocktaking" />
         <item itemvalue="Application.MyStreamClass" />
-        <item itemvalue="Application.PersonArray" />
       </list>
     </recent_temporary>
   </component>
@@ -354,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636656228606</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="removed log task from UseUtility">
+      <created>1636704603046</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1636704603046</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -397,7 +404,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added counter CountIntNumbers and number filter BackorderSpecNumbers" />
     <MESSAGE value="Change project packages" />
     <MESSAGE value="Added Classwork Day6" />
     <MESSAGE value="Added Date" />
@@ -422,7 +428,8 @@
     <MESSAGE value="Added stream with &quot;Date log&quot;" />
     <MESSAGE value="Removed extra folder" />
     <MESSAGE value="hidden VesselBox in Stocktaking" />
-    <option name="LAST_COMMIT_MESSAGE" value="hidden VesselBox in Stocktaking" />
+    <MESSAGE value="removed log task from UseUtility" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed log task from UseUtility" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
